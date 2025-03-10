@@ -1,6 +1,6 @@
 # Use an official lightweight Python image
 FROM python:3.10-slim
-
+RUN pip install flask
 # Set the working directory in the container
 WORKDIR /app
 
@@ -12,7 +12,7 @@ COPY static/ static/
 COPY data.json data.json
 
 # Install required dependencies
-RUN pip install --no-cache-dir -r requirements.txt
+#RUN pip install --no-cache-dir -r requirements.txt
 
 # Expose the Flask port
 EXPOSE 5000

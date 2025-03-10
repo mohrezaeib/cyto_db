@@ -1,7 +1,47 @@
 body {
     padding-top: 20px;
+    font-family: Arial, sans-serif;
 }
 
-.card {
-    margin-top: 10px;
+.table-responsive {
+    overflow-x: auto; /* Enables horizontal scrolling on small screens */
+}
+
+.table td, .table th {
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 200px; /* Limit text width */
+}
+
+.table tbody tr {
+    cursor: pointer; /* Makes row look clickable */
+    transition: background 0.2s;
+}
+
+.table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.compound-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.dropdown-menu {
+    max-height: 300px; 
+    overflow-y: auto; /* Makes search field selection scrollable */
+}
+
+.fixed-width {
+    width: 250px; /* Fix dropdown width */
+}
+.dropdown-menu .form-check {
+    display: flex;
+    align-items: center;
+    justify-content: left !important;
 }
