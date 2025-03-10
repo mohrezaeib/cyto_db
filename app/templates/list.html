@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+{% block content %}
+<!-- Search Form -->
+<form method="GET" action="{{ url_for('list_items') }}" class="form-inline mb-4">
+    <div class="form-group mr-2">
+        <input type="text" name="query" class="form-control" placeholder="Search..." value="{{ query }}">
+    </div>
+    <div class="form-group mr-2">
+        {% for field in possible_fields %}
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" name="fields" value="{{ field }}" id="field_{{ loop.index }}" {% if field in selected_fields %}checked{% endif %}>
+                <label class="form-check-label" for="field_{{ loop.index }}">{{ field }}</label>
+            </div>
+        {% endfor %}
+    </div>
+    <button type="submit" class="btn btn-primary">Search</button>
+</form>
+
+<!-- List Table -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Mol Index</th>
+            <th>Compound</th>
+            <th>IC50</th>
+            <th>Total Molweight</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in items %}
+            <tr>
+                <td><a href="{{ url_for('item_detail', mol_idx=item.mol_idx) }}">{{ item.mol_idx }}</a></td>
+                <td>{{ item.fields.Compound }}</td>
+                <td>{{ item.fields.IC50 }}</td>
+                <td>{{ item.fields['Total Molweight'] }}</td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+<!-- Pagination Controls -->
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    {% if page > 1 %}
+      <li class="page-item">
+        <a class="page-link" href="{{ url_for('list_items', page=page-1, query=query, fields=selected_fields) }}" aria-label="Previous">
+          <span aria-hidden="true">&laquo; Prev</span>
+        </a>
+      </li>
+    {% endif %}
+    {% for p in range(1, total_pages + 1) %}
+      <li class="page-item {% if p == page %}active{% endif %}">
+        <a class="page-link" href="{{ url_for('list_items', page=p, query=query, fields=selected_fields) }}">{{ p }}</a>
+      </li>
+    {% endfor %}
+    {% if page < total_pages %}
+      <li class="page-item">
+        <a class="page-link" href="{{ url_for('list_items', page=page+1, query=query, fields=selected_fields) }}" aria-label="Next">
+          <span aria-hidden="true">Next &raquo;</span>
+        </a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>
+{% endblock %}

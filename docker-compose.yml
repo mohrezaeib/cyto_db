@@ -38,7 +38,7 @@ services:
     container_name: cyto_db
     restart: always
     expose:
-      - "3838"
+      - "5000"
     environment:
       - VIRTUAL_HOST=localhost
       - LETSENCRYPT_HOST=localhost

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<a href="{{ url_for('list_items') }}" class="btn btn-secondary mb-3">Back to List</a>
+<h2>Compound Details (Mol Index: {{ item.mol_idx }})</h2>
+<div class="card">
+  <div class="card-body">
+    {% for key, value in item.fields.items() %}
+      <p><strong>{{ key }}:</strong> {{ value }}</p>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
