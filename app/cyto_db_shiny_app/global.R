@@ -1,13 +1,9 @@
 # global.R
 library(shiny)
 library(reticulate)
-library(dplyr)
-library(base64enc)
-library(png)
-library(grid)
 
 # ----------------- Configure reticulate -----------------
-use_virtualenv("/home/mda25/myenv", required = TRUE)
+# use_virtualenv("path to venv", required = TRUE)
 
 # ----------------- Define Python helper code -----------------
 py_run_string("
@@ -43,7 +39,7 @@ def parse_sdf_to_data(sdf_path):
 ")
 
 # ----------------- Global: Parse SDF once -----------------
-sdf_path <- "/home/mda25/cyto_db/CytoLabs_Database.sdf"
+sdf_path <- "./CytoLabs_Database.sdf"
 cat("Parsing SDF file at startup...\n")
 mols_data <- py$parse_sdf_to_data(sdf_path)
 cat("Finished parsing. Found", length(mols_data), "molecule(s).\n")
