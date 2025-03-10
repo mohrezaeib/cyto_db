@@ -1,6 +1,9 @@
 # server.R
 library(shiny)
-
+library(base64enc)
+library(dplyr)
+library(png)
+library(grid)
 server <- function(input, output, session) {
   rv <- reactiveValues(matchedIdx = df$mol_idx, selected = 1)
   
