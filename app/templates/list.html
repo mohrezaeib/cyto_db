@@ -34,8 +34,8 @@
     <table class="table table-striped table-bordered">
         <thead>
             <tr>
-                <th>Mol Index</th>
-                {% for field in all_fields %}
+                <th>No.</th>
+                {% for field in all_list_fields %}
                     <th>{{ field }}</th>
                 {% endfor %}
             </tr>
@@ -44,7 +44,7 @@
             {% for item in items %}
                 <tr onclick="window.location='{{ url_for('item_detail', mol_idx=item.mol_idx) }}'">
                     <td><a href="{{ url_for('item_detail', mol_idx=item.mol_idx) }}" class="compound-link">{{ item.mol_idx }}</a></td>
-                    {% for field in all_fields %}
+                    {% for field in all_list_fields %}
                         <td title="{{ item.fields.get(field, '') }}">{{ item.fields.get(field, '')[:30] }}{% if item.fields.get(field, '')|length > 30 %}...{% endif %}</td>
                     {% endfor %}
                 </tr>

@@ -1,19 +1,43 @@
 {% extends "base.html" %}
 {% block content %}
 <a href="{{ url_for('list_items') }}" class="btn btn-secondary mb-3">Back to List</a>
-<h2>Compound Details (Mol Index: {{ item.mol_idx }})</h2>
+<h3> Mol Index: {{ item.mol_idx }}</h3>
 
-{% if item.base64_png %}
-    <div class="text-center">
-        <img src="data:image/png;base64,{{ item.base64_png }}" alt="Molecule image" class="img-fluid mb-3">
-    </div>
-{% endif %}
+<div class="container">
 
-<div class="card">
-  <div class="card-body">
-    {% for key, value in item.fields.items() %}
-      <p><strong>{{ key }}:</strong> {{ value }}</p>
-    {% endfor %}
+  <!-- Navigation Buttons -->
+  <div class="d-flex justify-content-between mt-4">
+    {% if prev_idx is not none %}
+    <a href="{{ url_for('item_detail', mol_idx=prev_idx) }}" class="btn btn-outline-primary">&laquo; Previous</a>
+    {% else %}
+      <div></div>  <!-- Empty div to keep alignment -->
+    {% endif %}
+    
+    {% if next_idx is not none %}
+      <a href="{{ url_for('item_detail', mol_idx=next_idx) }}" class="btn btn-outline-primary">Next &raquo;</a>
+    {% endif %}
   </div>
+  <br>
+
+  <div class="row">
+    <!-- Image on the left (PC) or on top (Mobile) -->
+    {% if item.base64_png %}
+      <div class="col-md-6 text-center mb-3">
+        <img src="data:image/png;base64,{{ item.base64_png }}" alt="Molecule image" class="img-fluid rounded shadow">
+      </div>
+    {% endif %}
+
+    <!-- Details on the right (PC) or below (Mobile) -->
+    <div class="col-md-6">
+      <div class="card">
+        <div class="card-body">
+          {% for key, value in item.fields.items() %}
+            <p><strong>{{ key }}:</strong> {{ value }}</p>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
 </div>
 {% endblock %}

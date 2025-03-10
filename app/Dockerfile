@@ -1,12 +1,13 @@
 # Use an official lightweight Python image
 FROM python:3.10-slim
-RUN pip install flask
+RUN pip install flask 
 # Set the working directory in the container
 WORKDIR /app
 
 # Copy the requirements and application files
 COPY requirements.txt .
 COPY app.py .
+COPY config.py .
 COPY templates/ templates/
 COPY static/ static/
 COPY data.json data.json
