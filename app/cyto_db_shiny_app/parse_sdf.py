@@ -4,7 +4,7 @@ import io
 from rdkit import Chem
 from rdkit.Chem import Draw
 from rdkit.Chem import rdDepictor
-
+import json
 rdDepictor.SetPreferCoordGen(True)
 
 def parse_sdf_to_data(sdf_path):
@@ -29,3 +29,7 @@ def parse_sdf_to_data(sdf_path):
         mol_idx += 1
 
     return results
+
+result = parse_sdf_to_data("CytoLabs_Database.sdf")
+with open("data.json", "w") as file:
+    json.dump(result, file)
