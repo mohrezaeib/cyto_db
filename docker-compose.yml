@@ -1,51 +1,96 @@
-version: '3.8'
-
 services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Backend_Dockerfile
+    container_name: backend
+    ports:
+      - "${CYTOCHAL_BACKEND_PORT}:5000"
+    volumes:
+      - ./backend/static:/app/static
+    environment:
+      # Flask Environment
+      - FLASK_ENV=${CYTOCHAL_FLASK_ENV}
+      
+      # Application Settings  
+      - DATA_PATH=${CYTOCHAL_DATA_PATH}
+      - API_BASE_PATH=${CYTOCHAL_API_BASE_PATH}
+      - LOG_LEVEL=${CYTOCHAL_LOG_LEVEL}
+      
+      # SDF Parser Configuration
+      - CYTOCHAL_SDF_PATH=${CYTOCHAL_SDF_PATH}
+      - CYTOCHAL_IMAGE_DIR=${CYTOCHAL_IMAGE_DIR}
+      - CYTOCHAL_STRUCTURE_DIR=${CYTOCHAL_STRUCTURE_DIR}
+      
+      # Server Configuration
+      - BACKEND_PORT=${CYTOCHAL_BACKEND_PORT}
+      
+      # API Configuration
+      - API_HOST=${CYTOCHAL_API_HOST}
+      
+      # Constructed URLs
+      - API_FULL_URL=http://${CYTOCHAL_API_HOST}:${CYTOCHAL_BACKEND_PORT}${CYTOCHAL_API_BASE_PATH}
+      - BACKEND_INTERNAL_URL=http://${CYTOCHAL_SERVER_HOST}:${CYTOCHAL_BACKEND_PORT}${CYTOCHAL_API_BASE_PATH}
+      
+      # Debug
+      - DEBUG=${CYTOCHAL_DEBUG}
+
+    env_file:
+      - .env
+
+    
+    networks:
+      - cytochal-network
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Frontend_Dockerfile
+      args:
+        VITE_API_BASE_URL: "http://${CYTOCHAL_API_HOST}:${CYTOCHAL_BACKEND_PORT}${CYTOCHAL_API_BASE_PATH}"
+        CYTOCHAL_FRONTEND_PORT: "${CYTOCHAL_FRONTEND_PORT}"
+        CYTOCHAL_FRONTEND_BASE_URL: "${CYTOCHAL_FRONTEND_BASE_URL}"
+    container_name: frontend
+    ports:
+      - "${CYTOCHAL_FRONTEND_PORT}:3000"
+   
+    environment:
+    - VITE_API_BASE_URL=http://${CYTOCHAL_API_HOST}:${CYTOCHAL_BACKEND_PORT}${CYTOCHAL_API_BASE_PATH}
+    - CYTOCHAL_FRONTEND_PORT=${CYTOCHAL_FRONTEND_PORT}
+    - CYTOCHAL_FRONTEND_BASE_URL=${CYTOCHAL_FRONTEND_BASE_URL}
+    
+
+    
+    healthcheck:
+      test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    networks:
+      - cytochal-network
+    restart: unless-stopped
+  
+
   nginx:
-    image: jwilder/nginx-proxy
-    container_name: nginx_proxy
-    restart: always
+    build:
+      context: ./nginx
+      dockerfile: Nginx_Dockerfile
+    container_name: nginx
     ports:
       - "80:80"
-      - "443:443"
     volumes:
-      - /var/run/docker.sock:/tmp/docker.sock:ro
-      - ./nginx/certs:/etc/nginx/certs
-      - ./nginx/vhost.d:/etc/nginx/vhost.d
-      - ./nginx/html:/usr/share/nginx/html
-    networks:
-      - web
-
-  letsencrypt:
-    image: nginxproxy/acme-companion
-    container_name: letsencrypt
-    restart: always
+      - ./.env:/app/.env:ro
+    environment:
+        - BACKEND_PORT=${CYTOCHAL_BACKEND_PORT}
+        - FRONTEND_PORT=${CYTOCHAL_FRONTEND_PORT}
     depends_on:
-      - nginx
-    volumes:
-      - /var/run/docker.sock:/tmp/docker.sock:ro
-      - ./nginx/certs:/etc/nginx/certs
-      - ./nginx/vhost.d:/etc/nginx/vhost.d
-      - ./nginx/html:/usr/share/nginx/html
-      - ./nginx/acme:/etc/acme.sh
-    environment:
-      DEFAULT_EMAIL: "mba25@helmholtz-hzi.de"
+      - backend
+      - frontend
     networks:
-      - web
-
-  cyto_db:
-    build: ./app
-    container_name: cyto_db
-    restart: always
-    expose:
-      - "3838"
-    environment:
-      - VIRTUAL_HOST=localhost
-      - LETSENCRYPT_HOST=localhost
-      - LETSENCRYPT_EMAIL=mba25@helmholtz-hzi.de
-    networks:
-      - web
+      - cytochal-network
+    restart: unless-stopped
 
 networks:
-  web:
+  cytochal-network:
     driver: bridge

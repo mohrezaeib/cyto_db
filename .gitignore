@@ -51,3 +51,11 @@ rsconnect/
 #ignore data files
 */*.sdf
 *.sdf
+.venv
+rdkit-env
+*.pyc
+node_modules/
+public/Final\ Figures
+static/Final\ Figures
+**/node_modules/
+**/molecule_structures/
