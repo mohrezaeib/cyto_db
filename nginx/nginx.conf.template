@@ -84,7 +84,11 @@ http {
             proxy_set_header X-Forwarded-Proto $scheme;
             proxy_cache_bypass $http_upgrade;
         }
-
+        # Forces Nginx to use relative redirects (e.g., "/cytochal/") 
+        # instead of absolute ones ("http://domain:80/cytochal/").
+        # This prevents breaking the connection when using port 8080.
+        absolute_redirect off; 
+        # ---------------------
         # Redirect root to base URL
         location = / {
             return 302 /cytochal/;

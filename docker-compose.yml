@@ -84,6 +84,7 @@ services:
     container_name: nginx
     ports:
       - "80:80"
+      - "8080:80"
     volumes:
       - ./backend/static:/app/static:ro
       - ./.env:/app/.env:ro
