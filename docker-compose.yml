@@ -48,12 +48,15 @@ services:
       context: ./frontend
       dockerfile: Frontend_Dockerfile
       args:
-        VITE_API_BASE_URL: "http://${CYTOCHAL_API_HOST}:${CYTOCHAL_BACKEND_PORT}${CYTOCHAL_API_BASE_PATH}"
+        # Pass values from .env directly
+        CYTOCHAL_IS_DEV: "False"
+        CYTOCHAL_API_BASE_PATH: "${CYTOCHAL_API_BASE_PATH}"
+        CYTOCHAL_FRONTEND_BASE_URL: "${CYTOCHAL_FRONTEND_BASE_URL}"
+        # These are technically unused by config.tsx in prod, but good to pass to prevent errors
+        VITE_API_BASE_URL: "${VITE_API_BASE_URL}"
         CYTOCHAL_API_HOST: "${CYTOCHAL_API_HOST}"
         CYTOCHAL_BACKEND_PORT: "${CYTOCHAL_BACKEND_PORT}"
-        CYTOCHAL_API_BASE_PATH: "${CYTOCHAL_API_BASE_PATH}"
         CYTOCHAL_FRONTEND_PORT: "${CYTOCHAL_FRONTEND_PORT}"
-        CYTOCHAL_FRONTEND_BASE_URL: "${CYTOCHAL_FRONTEND_BASE_URL}"
     container_name: frontend
     expose:
       - "3000"
