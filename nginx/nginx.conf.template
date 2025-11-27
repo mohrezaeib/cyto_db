@@ -46,8 +46,7 @@ http {
     server {
         listen 80;
         # Add your internal and external domains here
-        server_name hzi-bscbio-web03.helmholtz-hzi.de ms3fa.helmholtz-hzi.de localhost;
-        
+        server_name ${SERVER_NAMES};        
         # Security headers
         add_header X-Frame-Options "SAMEORIGIN" always;
         add_header X-XSS-Protection "1; mode=block" always;

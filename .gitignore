@@ -49,8 +49,7 @@ po/*~
 rsconnect/
 
 #ignore data files
-*/*.sdf
-*.sdf
+
 .venv
 rdkit-env
 *.pyc

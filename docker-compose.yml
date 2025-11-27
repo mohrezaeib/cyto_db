@@ -90,6 +90,7 @@ services:
     environment:
         - BACKEND_PORT=${CYTOCHAL_BACKEND_PORT}
         - FRONTEND_PORT=${CYTOCHAL_FRONTEND_PORT}
+        - SERVER_NAMES=${CYTOCHAL_SERVER_NAMES}  
     depends_on:
       - backend
       - frontend
