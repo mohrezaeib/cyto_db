@@ -5,6 +5,7 @@ import { config } from './config';
 
 // Use config that works in both dev and prod
 const API_BASE_URL = config.apiUrl;
+console.log({API_BASE_URL});
 
 export const fetchCompounds = async (params: FilterParams = {}): Promise<ApiResponse> => {
   try {

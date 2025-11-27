@@ -1,5 +1,5 @@
 {
-      "name": "React",
+      "name": "cytochal-frontend",
       "version": "0.1.0",
       "private": true,
       "dependencies": {
@@ -58,7 +58,9 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "vite build"
+            "build": "vite build",
+            "type-check": "tsc --noEmit",
+            "build:prod": "npm run type-check && npm run build"
            
       }
 }

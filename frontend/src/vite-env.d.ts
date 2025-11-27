@@ -1,10 +1,16 @@
 /// <reference types="vite/client" />
 
 interface ImportMetaEnv {
-  readonly VITE_CYTOCHAL_API_HOST: string
-  readonly VITE_CYTOCHAL_BACKEND_PORT: string
-  readonly VITE_CYTOCHAL_API_BASE_PATH: string
-  readonly VITE_CYTOCHAL_API_FULL_URL: string
+  readonly CYTOCHAL_API_HOST: string
+  readonly CYTOCHAL_BACKEND_PORT: string
+  readonly CYTOCHAL_API_BASE_PATH: string
+
+  readonly CYTOCHAL_IS_DEV: string
+
+  readonly VITE_API_BASE_URL: string
+  readonly  staticBaseUrl: string;
+ readonly microscopyImageBaseUrl: string;
+ readonly moleculeImageBaseUrl: string;
 
 }
 

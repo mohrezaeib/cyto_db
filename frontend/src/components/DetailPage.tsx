@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Separator } from "./ui/separator";
 import { Compound } from "../types";
 import { useState } from "react";
+import { config } from "../config"
 
 interface DetailPageProps {
   compound: Compound;
@@ -217,11 +218,11 @@ export default function DetailPage({
                   <div className="bg-gray-100 rounded-lg overflow-hidden flex items-center justify-center min-h-[300px]">
                         
         {compound.fields["Image File"] ? (
-          <img
-            src={`http://localhost:5000/static/Final Figures/${compound.fields["Image File"]}`}
-            alt={`Microscopy analysis of ${compound.fields["Compound"]}`}
-            className="w-full h-full object-contain p-4"
-          />
+<img
+  src={`${config.microscopyImageBaseUrl}${compound.fields["Image File"]}`}
+  alt={`Microscopy analysis of ${compound.fields["Compound"]}`}
+  className="w-full h-full object-contain p-4"
+/>
         ) : (
           <p className="text-gray-500 text-xl">Not available</p>
         )}
@@ -244,10 +245,10 @@ export default function DetailPage({
               <CardContent className="p-6 bg-white">
                 <div className="aspect-square bg-white border-2 border-gray-200 rounded-lg flex items-center justify-center overflow-hidden">
                   <img
-                     src={`http://localhost:5000/static/molecule_structures/${compound.structure_image}`}
-                    alt="Molecular Structure"
-                    className="w-full h-full object-contain p-4"
-                  />
+    src={`${config.moleculeImageBaseUrl}${compound.structure_image}`}
+    alt="Molecular Structure"
+    className="w-full h-full object-contain p-4"
+  />
                 </div>
                 <div className="mt-4 text-center">
                   <p className="text-sm text-gray-600">2D Chemical Structure</p>
@@ -310,13 +311,72 @@ function DetailField({
 }: DetailFieldProps) {
   if (!value) value = "-";
 
-  let items = [value];
+  // always start from trimmed value
+  let raw = value.trim();
+  let items: string[] = [raw];
 
   switch (splitMode) {
     case "newline":
-      items = value.split(/\n+/).map(x => x.trim()).filter(Boolean);
+      // split on real line breaks
+      items = raw.split(/\n+/);
       break;
-    // other modes...
+
+    case "comma":
+      // split on commas / semicolons
+      items = raw.split(/[;,]+/);
+      break;
+
+    case "space":
+      // split on spaces / any whitespace
+      items = raw.split(/\s+/);
+      break;
+
+    case "auto": {
+      // 1) clean trailing ">>>" / ">" etc. (your origin example)
+      //    e.g. "Magnaporte grisea muta-synthesis>>>"
+      raw = raw.replace(/>+\s*$/g, "").trim();
+
+      if (!raw) {
+        items = ["-"];
+        break;
+      }
+
+      // 2) if there are arrows inside, split on them
+      if (raw.includes(">>>") || raw.includes(">>") || raw.includes(">")) {
+        items = raw.split(/>+/);
+      }
+      // 3) else if it has newlines, use newline mode
+      else if (raw.includes("\n")) {
+        items = raw.split(/\n+/);
+      }
+      // 4) else if it has commas / semicolons, use comma mode
+      else if (raw.includes(",") || raw.includes(";")) {
+        items = raw.split(/[;,]+/);
+      }
+      // 5) else if it has multiple spaces, you *can* break by space
+      else if (raw.includes(" ")) {
+        items = raw.split(/\s+/);
+      }
+      // 6) otherwise keep as a single item
+      else {
+        items = [raw];
+      }
+
+      break;
+    }
+
+    case "none":
+    default:
+      // keep as is
+      items = [raw];
+      break;
+  }
+
+  // final cleanup: trim each and remove empty strings
+  items = items.map(x => x.trim()).filter(Boolean);
+
+  if (items.length === 0) {
+    items = ["-"];
   }
 
   return (
@@ -327,7 +387,9 @@ function DetailField({
 
       <div className={`space-y-2 ${valueClassName}`}>
         {items.map((item, index) => (
-          <p key={index} className="text-gray-900">{item}</p>
+          <p key={index} className="text-gray-900">
+            {item}
+          </p>
         ))}
       </div>
     </div>

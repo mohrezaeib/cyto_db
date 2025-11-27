@@ -12,8 +12,6 @@ find . -type f \( \
     -name "*.yml" -o \
     -name "*.html" -o \
     -name "*.css" -o \
-    -name "*.ts" -o \
-    -name "*.tsx" -o \
     -name "*.config" \
 \) | while read -r f; do
     echo "=== $f ===" >> "$output"

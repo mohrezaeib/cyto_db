@@ -20,8 +20,8 @@ rdDepictor.SetPreferCoordGen(True)
 # Get paths from environment variables with fallbacks
 BASE_DIR = Path(__file__).parent.parent
 SDF_PATH = BASE_DIR / os.getenv('CYTOCHAL_SDF_PATH', 'static/CytoLabs_Database.sdf')
-IMAGE_DIR = BASE_DIR / os.getenv('CYTOCHAL_IMAGE_DIR', 'static/Final Figures')
-STRUCTURE_IMAGE_DIR = BASE_DIR / os.getenv('CYTOCHAL_STRUCTURE_DIR', 'static/molecule_structures')
+IMAGE_DIR = BASE_DIR / os.getenv('CYTOCHAL_IMAGE_DIR', 'static/microscopy_images')
+STRUCTURE_IMAGE_DIR = BASE_DIR / os.getenv('CYTOCHAL_STRUCTURE_DIR', 'static/molecule_structures_image')
 
 IMAGE_EXTS = {".tif", ".tiff", ".png", ".jpg", ".jpeg"}
 

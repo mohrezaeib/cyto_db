@@ -4,6 +4,7 @@ import  { useState , useEffect} from 'react'
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "./ui/table"
 import { Pagination, PaginationContent, PaginationItem, PaginationLink, PaginationNext, PaginationPrevious } from "./ui/pagination"
 import { Compound } from '../types'
+import { config } from '../config'
 
 
 interface ResultsTableProps {
@@ -139,7 +140,8 @@ export default function ResultsTable({
                      <TableCell className="p-3">
                     <div className="w-32 h-32 flex items-center justify-center overflow-hidden cursor-pointer">
                       <img 
-                          src={`http://localhost:5000/static/molecule_structures/${item.structure_image}`}
+                          src={`${config.moleculeImageBaseUrl}${item.structure_image}`}
+
                         alt="Molecular structure" 
                        
                          className="w-full h-full object-contain transition-transform duration-300 hover:scale-150"

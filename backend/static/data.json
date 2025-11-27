@@ -1,1 +1,2476 @@
-[]
+[
+  {
+    "mol_idx": 0,
+    "structure_image": "structure_0.png",
+    "fields": {
+      "Compound": "Pyrichalasin H",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang C, Becker K, Pfütze S, Kuhnert E, Stadler M, Cox RJ, Skellam E. Investigating the Function of Cryptic Cytochalasan Cytochrome P450 Monooxygenases Using Combinatorial Biosynthesis. Org Lett. 2019 Nov 1;21(21):8756-8760. doi: 10.1021/acs.orglett.9b0337\nWang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.20",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+/-",
+      "Box ID": "1C0001",
+      "Quantity": 1.57,
+      "IC50": "0.1 µg/mL\n0.21 µM",
+      "Synonyms": "WC001\nCompound 1\ncompound 1a",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H41NO6",
+      "Total Molweight": 523.668,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 1,
+    "structure_image": "structure_1.png",
+    "fields": {
+      "Compound": "Pyrichalasin J",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang C. (2020) Understanding, Engineering and Chemical Modification of Pyrichalasin H Biosynthesis from Magnaporthe grisea NI980; Dissertation\nWang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0002",
+      "Quantity": 1.7,
+      "IC50": "1.5 µg/mL",
+      "Synonyms": "WC002\nCompound 156\nWC123\ncompound 6",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C29H39NO5",
+      "Total Molweight": 481.631,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 2,
+    "structure_image": "structure_2.png",
+    "fields": {
+      "Compound": "4'-F-pyrichalasin H",
+      "Origin": "Magnaporthe grisea\nmuta-synthesis",
+      "Reference": "Khayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis\nWang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.20\nWang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0003",
+      "Quantity": 3.12,
+      "IC50": "0.13 µg/mL",
+      "Synonyms": "WC003A\ncompound 1b\nWC070\ncompound 29",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H38NO5F",
+      "Total Molweight": 511.632,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1F)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 3,
+    "structure_image": "structure_3.png",
+    "fields": {
+      "Compound": "4'-Br-pyrichalasin H",
+      "Origin": "Magnaporte grisea\nmuta-synthesis",
+      "Reference": "Khayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis\nWang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.20\nWang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0004",
+      "Quantity": 4.871,
+      "IC50": "0.038 µg/mL",
+      "Synonyms": "WC003B\ncompound 1d\nWC071\ncompound 30",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H38NO5Br",
+      "Total Molweight": 572.538,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1Br)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 4,
+    "structure_image": "structure_4.png",
+    "fields": {
+      "Compound": "4'-Cl-pyrichalasin H",
+      "Origin": "Magnaporte grisea\nmuta-synthesis",
+      "Reference": "Khayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis\nWang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.20\nWang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+/-",
+      "Box ID": "1C0005",
+      "Quantity": 5.15,
+      "IC50": "0.062 µg/mL",
+      "Synonyms": "WC003C\ncompound 1c\nWC129\ncompound 26",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H38NO5Cl",
+      "Total Molweight": 528.087,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1Cl)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 5,
+    "structure_image": "structure_5.png",
+    "fields": {
+      "Compound": "Compound 18\nCompound 2",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0006",
+      "Quantity": 2.21,
+      "IC50": "0.25 µg/mL",
+      "Synonyms": "WC050\nWC004",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H41NO5",
+      "Total Molweight": 507.669,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]2([C@@H](/C=C3)OC(C)=O)C1=O)C(C)=C[C@@H]2/C=C/C[C@H](C)C[C@]\\3(C)O"
+    }
+  },
+  {
+    "mol_idx": 6,
+    "structure_image": "structure_6.png",
+    "fields": {
+      "Compound": "Compound 17\nCompound 3",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0007",
+      "Quantity": 3.66,
+      "IC50": "2 µg/mL",
+      "Synonyms": "WC049B\nWC005",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H41NO6",
+      "Total Molweight": 523.668,
+      "Smiles": "C[C@@H]([C@@H]([C@H]([C@@H](c(cc1)ccc1OC)O)N1)[C@@]2([C@@H](/C=C3)OC(C)=O)C1=O)C(C)=C[C@@H]2/C=C/C[C@H](C)C[C@@]\\3(C)O"
+    }
+  },
+  {
+    "mol_idx": 7,
+    "structure_image": "structure_7.png",
+    "fields": {
+      "Compound": "Compound 14\nCompound 4",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0008",
+      "Quantity": 0.99,
+      "IC50": "17 µg/mL",
+      "Synonyms": "WC052\nWC006",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H41NO7",
+      "Total Molweight": 539.667,
+      "Smiles": "C[C@@H]([C@@H]([C@H]([C@@H](c(cc1)ccc1OC)O)N1)[C@@]2([C@@H](/C=C3)OC(C)=O)C1=O)C(C)=C[C@@H]2/C=C/C[C@H](CO)C[C@@]\\3(C)O"
+    }
+  },
+  {
+    "mol_idx": 8,
+    "structure_image": "structure_8.png",
+    "fields": {
+      "Compound": "Compound 15i\nCompound 5",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0009",
+      "Quantity": 1.83,
+      "IC50": "0.85 µg/mL",
+      "Synonyms": "WC051 (not pure)\nWC007 (not pure)",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 9,
+    "structure_image": "structure_9.png",
+    "fields": {
+      "Compound": "Compound 16\nCompound 17",
+      "Origin": "Magnaporthe grisea",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+/-",
+      "Reversibilty": "+",
+      "Box ID": "1C0010",
+      "Quantity": 2.27,
+      "IC50": "1 µg/mL",
+      "Synonyms": "WC008",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO5",
+      "Total Molweight": 493.642,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1O)N1)[C@@]2([C@@H](/C=C3)OC(C)=O)C1=O)C(C)=C[C@@H]2/C=C/C[C@H](C)C[C@@]\\3(C)O"
+    }
+  },
+  {
+    "mol_idx": 10,
+    "structure_image": "structure_10.png",
+    "fields": {
+      "Compound": "Compound 164\nCompound 8",
+      "Origin": "Magnaporthe grisea",
+      "Reference": "Wang C. (2020) Understanding, Engineering and Chemical Modification of Pyrichalasin H Biosynthesis from Magnaporthe grisea NI980; Dissertation\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "+",
+      "Box ID": "1C0011",
+      "Quantity": 2.1,
+      "IC50": "3.9 µg/mL",
+      "Synonyms": "WC009",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO6",
+      "Total Molweight": 509.641,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1O)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](CO)C[C@H](C)/C=C3)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 11,
+    "structure_image": "structure_11.png",
+    "fields": {
+      "Compound": "Compound 13\nCompound 19",
+      "Origin": "Magnaporthe grisea",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0012",
+      "Quantity": 2.53,
+      "IC50": "0.25 µg/mL",
+      "Synonyms": "WC020\nWC012",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H41NO4",
+      "Total Molweight": 479.659,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1O)NC1)[C@@]1([C@H]([C@@H]1O)/C=C/C[C@H](C)C[C@H](C)/C=C2)[C@@H]\\2OC(C)=O)C1=C"
+    }
+  },
+  {
+    "mol_idx": 12,
+    "structure_image": "structure_12.png",
+    "fields": {
+      "Compound": "Cytochalasin H",
+      "Origin": "Hypoxylon fragiforme\nDiaporthe cf. ueckeri\nMagnaporte grisea",
+      "Reference": "Yuyama, K.T.; Wendt, L.; Surup, F.; Kretz, R.; Chepkirui, C.; Wittstein, K.; Boonlarppradab, C.; Wongkanoun, S.; Luangsa-ard, J.J.; Stadler, M.; et al. Cytochalasans act as inhibitors of biofilm formation of Staphylococcus aureus. Biomolecules 2015, 8, 4\nKemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Jan 18:105434. doi: 10.1016/j.fitote.2023.105434. Epub ahead of print. PMID: 36681097\nWang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0013",
+      "Quantity": "0.94 mg\n1.16 mg",
+      "IC50": "0.1 µg/mL",
+      "Synonyms": "WC040",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO5",
+      "Total Molweight": 493.642,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 13,
+    "structure_image": "structure_13.png",
+    "fields": {
+      "Compound": "Epoxypyrichalasin H\nCompound 21",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0014",
+      "Quantity": 3.87,
+      "IC50": "0.15 µg/mL",
+      "Synonyms": "WC063\nWC017",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H41NO6",
+      "Total Molweight": 523.668,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]2([C@@H](/C=C3)OC(C)=O)C1=O)[C@@]1(C)O[C@H]1[C@@H]2/C=C/C[C@H](C)C[C@@]\\3(C)O",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 14,
+    "structure_image": "structure_14.png",
+    "fields": {
+      "Compound": "Compound 12",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0015",
+      "Quantity": 1.11,
+      "IC50": "0.43 µg/mL",
+      "Synonyms": "WC023\nWC026",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H41NO6",
+      "Total Molweight": 523.668,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](CO)C[C@H](C)/C=C3)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 15,
+    "structure_image": "structure_15.png",
+    "fields": {
+      "Compound": "Compound 11",
+      "Origin": "Magnaporthe grisea",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0016",
+      "Quantity": 1.42,
+      "IC50": "19 µg/mL",
+      "Synonyms": "WC031",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H37NO4",
+      "Total Molweight": 451.605,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1O)N1)[C@@]23C1=O)C(C)=C[C@@H]2/C=C/C[C@H](CO)C[C@H](C)/C=C/[C@H]3O"
+    }
+  },
+  {
+    "mol_idx": 16,
+    "structure_image": "structure_16.png",
+    "fields": {
+      "Compound": "Compound 8\nCompound 11",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0017",
+      "Quantity": 0.26,
+      "IC50": "37 µg/mL",
+      "Synonyms": "WC037",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C29H39NO4",
+      "Total Molweight": 465.632,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)NC1=O)[C@@]11C(CC2)=O)C(C)=C[C@@H]1/C=C/C[C@H](C)C[C@@]2(C)O"
+    }
+  },
+  {
+    "mol_idx": 17,
+    "structure_image": "structure_17.png",
+    "fields": {
+      "Compound": "Compound 7\nCompound 12",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0018",
+      "Quantity": 1.05,
+      "IC50": "27 µg/mL",
+      "Synonyms": "WC038",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C29H39NO5",
+      "Total Molweight": 481.631,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)NC1=O)[C@@]11C(CC2)=O)C(CO)=C[C@@H]1/C=C/C[C@H](C)C[C@@]2(C)O"
+    }
+  },
+  {
+    "mol_idx": 18,
+    "structure_image": "structure_18.png",
+    "fields": {
+      "Compound": "Magnachalasin H",
+      "Origin": "Magnaporthe grisea",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0019",
+      "Quantity": 0.38,
+      "IC50": "not tested",
+      "Synonyms": "WC039",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO6",
+      "Total Molweight": 509.641,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1O)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 19,
+    "structure_image": "structure_19.png",
+    "fields": {
+      "Compound": "Compound 9\nCompound 10",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang, C., Hantke, V., Cox, R. J., & Skellam, E. (2019). Targeted Gene Inactivations Expose Silent Cytochalasans in Magnaporthe grisea NI980. Organic Letters. doi:10.1021/acs.orglett.9b01344\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+/-",
+      "Box ID": "1C0020",
+      "Quantity": 0.32,
+      "IC50": "9.7 µg/mL",
+      "Synonyms": "WC042",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C29H37NO4",
+      "Total Molweight": 463.616,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)NC1=O)[C@@]11C(/C=C2)=O)C(C)=C[C@@H]1/C=C/C[C@H](C)C[C@@]\\2(C)O"
+    }
+  },
+  {
+    "mol_idx": 20,
+    "structure_image": "structure_20.png",
+    "fields": {
+      "Compound": "WC062",
+      "Origin": "no information",
+      "Reference": "not found in any publications",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0021",
+      "Quantity": 2.06,
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "no information",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 21,
+    "structure_image": "structure_21.png",
+    "fields": {
+      "Compound": "Compound 20\nCompound 22",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang C, Becker K, Pfütze S, Kuhnert E, Stadler M, Cox RJ, Skellam E. Investigating the Function of Cryptic Cytochalasan Cytochrome P450 Monooxygenases Using Combinatorial Biosynthesis. Org Lett. 2019 Nov 1;21(21):8756-8760. doi: 10.1021/acs.orglett.9b0337\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0022",
+      "Quantity": 1.36,
+      "IC50": "2.7 µg/mL",
+      "Synonyms": "WC068",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO6",
+      "Total Molweight": 509.641,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1O)N1)[C@@]23C1=O)[C@@]1(C)O[C@H]1[C@@H]2/C=C/C[C@H](CO)C[C@H](C)/C=C/[C@H]3OC(C)=O"
+    }
+  },
+  {
+    "mol_idx": 22,
+    "structure_image": "structure_22.png",
+    "fields": {
+      "Compound": "Compound 19\nCompound 23",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang C, Becker K, Pfütze S, Kuhnert E, Stadler M, Cox RJ, Skellam E. Investigating the Function of Cryptic Cytochalasan Cytochrome P450 Monooxygenases Using Combinatorial Biosynthesis. Org Lett. 2019 Nov 1;21(21):8756-8760. doi: 10.1021/acs.orglett.9b0337\nKhayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0023",
+      "Quantity": 2.37,
+      "IC50": "13 µg/mL",
+      "Synonyms": "WC069",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H38NO5",
+      "Total Molweight": 468.612,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1O)N1)[C@@]23C1=O)C1(C)OC1[C@@H]2/C=C/C[C@H](CO)C[C@H](C)/C=C/[C@H]3O"
+    }
+  },
+  {
+    "mol_idx": 23,
+    "structure_image": "structure_23.png",
+    "fields": {
+      "Compound": "Compound 13",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Khayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0024",
+      "Quantity": 3.65,
+      "IC50": "2.2 µg/mL",
+      "Synonyms": "WC105",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C42H47N5O7",
+      "Total Molweight": 733.863,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COC(c2c(cc[nH]3)c3ccc2)=O)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 24,
+    "structure_image": "structure_24.png",
+    "fields": {
+      "Compound": "Compound 14",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Khayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0025",
+      "Quantity": 1.15,
+      "IC50": "0.68 µg/mL",
+      "Synonyms": "WC106",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C40H46N6O5",
+      "Total Molweight": 690.842,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(-c2nc(cccc3)c3[n]2C)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 25,
+    "structure_image": "structure_25.png",
+    "fields": {
+      "Compound": "Compound 15",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Khayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0026",
+      "Quantity": 1.69,
+      "IC50": "5.8 µg/mL",
+      "Synonyms": "WC107",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C42H47N5O7",
+      "Total Molweight": 733.863,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(CCN(C(c2c3cccc2)=O)C3=O)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 26,
+    "structure_image": "structure_26.png",
+    "fields": {
+      "Compound": "Compound 16",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Khayata H., (2020), Generation of U2-OS osteosarcoma cells lacking non-muscle beta- and gamma-actin using CRISPR/Cas9 technology and examination of the effect of a mutasynthetic pyrichalasin H derivative library on the eukaryotic actin cytoskeleton. Master thesis",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0027",
+      "Quantity": 3.17,
+      "IC50": "0.38 µg/mL",
+      "Synonyms": "WC110",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C39H52N4O7",
+      "Total Molweight": 688.863,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(CCOC2OCCCC2)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 27,
+    "structure_image": "structure_27.png",
+    "fields": {
+      "Compound": "Karyochalasin",
+      "Origin": "Xylaria karyophthora",
+      "Reference": "Lambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0029",
+      "Quantity": "available",
+      "IC50": "no observed inhibitory effects",
+      "Synonyms": "5-epi-Acetylcytochalasin S\nP6-1 NMR498/163\ncompound 1",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO8",
+      "Total Molweight": 541.639,
+      "Smiles": "C[C@@H]([C@H]([C@@H]([C@]([C@@H]1[C@H](Cc2ccccc2)N2)([C@@H]([C@@H]3O[C@H]3[C@@]3(C)O)OC(C)=O)C2=O)/C=C/C[C@H](C)C3=O)O)[C@@]1(C)O",
+      "Image File": "Karyochalasin.png.png"
+    }
+  },
+  {
+    "mol_idx": 28,
+    "structure_image": "structure_28.png",
+    "fields": {
+      "Compound": "7-keto-19,20 epoxycytochalasin C",
+      "Origin": "Xylaria karyophthora",
+      "Reference": "Lambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0030",
+      "Quantity": "available",
+      "IC50": "3.7 µg/mL\n7.1 µM",
+      "Synonyms": "P13-4 NMR538\ncompound 3",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO7",
+      "Total Molweight": 523.624,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@H]2/C=C/C[C@H](C)C([C@@](C)([C@@H]3O[C@H]33)O)=O)([C@@H]3OC(C)=O)C1=O)[C@@H](C)C2=O",
+      "Image File": "7-keto-19,20 epoxycytochalasin C.png"
+    }
+  },
+  {
+    "mol_idx": 29,
+    "structure_image": "structure_29.png",
+    "fields": {
+      "Compound": "Deacetyl 19,20-epoxycytochalasin C",
+      "Origin": "Xylaria karyophthora",
+      "Reference": "Lambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "1C0032",
+      "Quantity": "available",
+      "IC50": "0.99 µg/mL",
+      "Synonyms": "P83-3",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H35NO6",
+      "Total Molweight": 481.587,
+      "Smiles": "C[C@@H](CC=CC([C@@H](C(C)=C(C)[C@H]1[C@H](Cc2ccccc2)N2)O)[C@]1([C@@H]([C@@H]1O[C@H]1[C@@]1(C)O)O)C2=O)C1=O",
+      "Image File": "Deacetyl 19,20-epoxycytochalasin C.png"
+    }
+  },
+  {
+    "mol_idx": 30,
+    "structure_image": "structure_30.png",
+    "fields": {
+      "Compound": "6-epi-19-20-epoxycytochalasin P",
+      "Origin": "Xylaria karyophthora",
+      "Reference": "Lambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0033",
+      "Quantity": "available",
+      "IC50": "22 µg/mL\n40.6 µM",
+      "Synonyms": "P13-1-2 NMR499\ncompound 2",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO8",
+      "Total Molweight": 541.639,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C([C@@](C)([C@@H]3O[C@H]33)O)=O)([C@@H]3OC(C)=O)C1=O)[C@]2(C)O",
+      "Image File": "6-epi-19-20-epoxycytochalasin P.png"
+    }
+  },
+  {
+    "mol_idx": 31,
+    "structure_image": "structure_31.png",
+    "fields": {
+      "Compound": "Cytochalasin B",
+      "Origin": "Helminthosporium dematiodeum\nPhoma sp. S-298\nPreussia similis",
+      "Reference": "Aldridge DC, Armstrong JJ, Speake RN, Turner WB (1967) The cytochalasins, a new class of biologically active mould metabolites. Chem Commun 1967:26\nRothweiler W, Tamm C (1966) Isolation and structure of phomin. Cell Mol Life Sci 22:750",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0037",
+      "Quantity": "available",
+      "IC50": "0.6 µg/mL",
+      "Synonyms": "Phomin",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C29H37NO5",
+      "Total Molweight": 479.615,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)NC1=O)[C@@]1([C@H]([C@@H]1O)/C=C/C[C@H](C)CCC[C@H](/C=C2)O)OC\\2=O)C1=C",
+      "Image File": "Cytochalasin B.png"
+    }
+  },
+  {
+    "mol_idx": 32,
+    "structure_image": "structure_32.png",
+    "fields": {
+      "Compound": "4-Coumarin dye-linked Cytoclasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0038",
+      "Quantity": "available",
+      "IC50": 2.799,
+      "Synonyms": "WC090\ncompound 15",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C50H57N5O8",
+      "Total Molweight": 856.03,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COC(C2=Cc(cc3c4c5CCCN4CCC3)c5OC2=O)=O)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4-Coumarin dye-linked Cytoclasin H.png"
+    }
+  },
+  {
+    "mol_idx": 33,
+    "structure_image": "structure_33.png",
+    "fields": {
+      "Compound": "4'-Perylene linked Cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0039",
+      "Quantity": 1.1,
+      "IC50": 43.305,
+      "Synonyms": "WC077A but also WC077B and WC077\ncompound 13",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C55H56N4O5",
+      "Total Molweight": 853.073,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COCc2cc3cccc(-c4c5c6cccc5ccc4)c3c-6c2)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Perylene linked Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 34,
+    "structure_image": "structure_34.png",
+    "fields": {
+      "Compound": "4'-(O-prop-2-enyl) Cytochalasin H",
+      "Origin": "Magnaporte grisea\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0040",
+      "Quantity": "10,71 mg",
+      "IC50": 0.419,
+      "Synonyms": "WC127\ncompound 1f",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C33H43NO5",
+      "Total Molweight": 533.706,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC=C)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-(O-prop-2-enyl) Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 35,
+    "structure_image": "structure_35.png",
+    "fields": {
+      "Compound": "Cytochalasin E",
+      "Origin": "Dematophora necatrix",
+      "Reference": "Pourmoghaddam, M.J., Ekiz, G., Lambert, C. et al. Studies on the secondary metabolism of Rosellinia and Dematophora strains (Xylariaceae) from Iran. Mycol Progress 21, 65 (2022). https://doi.org/10.1007/s11557-022-01816-x",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "-",
+      "Box ID": "1C0041",
+      "Quantity": 0.02,
+      "IC50": 0.26,
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H33NO7",
+      "Total Molweight": 495.57,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)NC1=O)[C@@]11OC(O/C=C/[C@@]2(C)O)=O)[C@@]3(C)O[C@H]3[C@@H]1/C=C/C[C@H](C)C2=O",
+      "Image File": "Cytochalasin E.png"
+    }
+  },
+  {
+    "mol_idx": 36,
+    "structure_image": "structure_36.png",
+    "fields": {
+      "Compound": "WC077S",
+      "Origin": "no information",
+      "Reference": "not found in any publications",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0042",
+      "Quantity": 4.55,
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "no information",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 37,
+    "structure_image": "structure_37.png",
+    "fields": {
+      "Compound": "Dimeric Cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0043",
+      "Quantity": 3.47,
+      "IC50": "small proliferation inhibition",
+      "Synonyms": "WC134\ncompound 27",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C72H94N8O14",
+      "Total Molweight": 1295.58,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1-[n]1nnc(COCCOCCOCCOCc2c[n](-c3ccc(C[C@@H](C([C@H](C)C([C@H]([C@@H]4/C=C/C[C@H](C)C[C@](C)(/C=C5)O)O)=C)[C@]44C\\5OC(C)=O)NC4=O)cc3)nn2)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 38,
+    "structure_image": "structure_38.png",
+    "fields": {
+      "Compound": "4'-Benzofuran-linkend cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0044",
+      "Quantity": 0.71,
+      "IC50": 1.861,
+      "Synonyms": "WC126\ncompound 21",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C39H44N8O8",
+      "Total Molweight": 752.826,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1-[n]1nnc(CNc(c2n[o]nc22)ccc2[N+]([O-])=O)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Benzofuran-linkend cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 39,
+    "structure_image": "structure_39.png",
+    "fields": {
+      "Compound": "4'-AlexaFluor488-linked cytochalasin H",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0045",
+      "Quantity": 1.59,
+      "IC50": 27.14,
+      "Synonyms": "WC129\ncompound 19",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C54H55N7O15S2",
+      "Total Molweight": 1106.2,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1-[n]1nnc(CNC(c(cc2)cc(C(c(c(O3)c4S(O)(=O)=O)ccc4N)=C(C=CC4=[NH2+])C3=C4S([O-])(=O)=O)c2C(O)=O)=O)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-AlexaFluor488-linked cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 40,
+    "structure_image": "structure_40.png",
+    "fields": {
+      "Compound": "Cytochalasin D",
+      "Origin": "Purchased",
+      "Reference": "Aldridge DC, Armstrong JJ, Speake RN, Turner WB (1967) The cytochalasins, a new class of biologically active mould metabolites. Chem Commun 1967:26",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "1C0046",
+      "Quantity": "available",
+      "IC50": "0.075 µg/mL",
+      "Synonyms": "Zygosporin A",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO6",
+      "Total Molweight": 507.625,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C([C@@](C)(/C=C3)O)=O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Cytochalasin D.png"
+    }
+  },
+  {
+    "mol_idx": 41,
+    "structure_image": "structure_41.png",
+    "fields": {
+      "Compound": "Cytochalasin C",
+      "Origin": "Purchased",
+      "Reference": "Lambert, C.; Pourmoghaddam, M.J.; Cedeño-Sanchez, M.; Surup, F.; Khodaparast, S.A.; Krisai-Greilhuber, I.; Voglmayr, H.; Stradal, T.E.B.; Stadler, M. Resolution of the Hypoxylon fuscum Complex (Hypoxylaceae, Xylariales) and Discovery and Biological Charac",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "+",
+      "Box ID": "1C0047",
+      "Quantity": 1,
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO6",
+      "Total Molweight": 507.625,
+      "Smiles": "C[C@@H](C/C=C/[C@@H]([C@@H](C(C)=C(C)[C@H]1[C@H](Cc2ccccc2)N2)O)C1([C@@H](/C=C/[C@@]1(C)O)OC(C)=O)C2=O)C1=O",
+      "Image File": "Cytochalasin C.png"
+    }
+  },
+  {
+    "mol_idx": 42,
+    "structure_image": "structure_42.png",
+    "fields": {
+      "Compound": "4'-Biotin-triazole-linked Cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0048",
+      "Quantity": 2.48,
+      "IC50": "small proliferation inhibition",
+      "Synonyms": "WC094\ncompound 7b",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C45H60N6O7S",
+      "Total Molweight": 829.072,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(CCOC(CCCCC([C@H]2N3)SC[C@@H]2NC3=O)=O)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Biotin-triazole-linked Cytochalasin H 1.png"
+    }
+  },
+  {
+    "mol_idx": 43,
+    "structure_image": "structure_43.png",
+    "fields": {
+      "Compound": "WC0905",
+      "Origin": "no information",
+      "Reference": "not found in any publications",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "1C0049",
+      "Quantity": 0.46,
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "no information",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 44,
+    "structure_image": "structure_44.png",
+    "fields": {
+      "Compound": "4'-Biotin-triazole-linked Cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0050",
+      "Quantity": 0.72,
+      "IC50": "small proliferation inhibition",
+      "Synonyms": "WC095\nCompound 7c",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C46H62N6O7S",
+      "Total Molweight": 843.099,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(CCCOC(CCCCC([C@H]2N3)SC[C@@H]2NC3=O)=O)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Biotin-triazole-linked Cytochalasin H 1.png"
+    }
+  },
+  {
+    "mol_idx": 45,
+    "structure_image": "structure_45.png",
+    "fields": {
+      "Compound": "4'-TexRed-linked cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0051",
+      "Quantity": 0.95,
+      "IC50": 0.096,
+      "Synonyms": "WC131\ncompound 17",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C72H87N7O15S2",
+      "Total Molweight": 1354.65,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1-[n]1nnc(COCCOCCOCCOCCNS(c(cc2)cc(C(c(cc3c4c5CCCN4CCC3)c5O3)=C(C=C4CCC5)C3=C3C4=[N+]5CCC3)c2S([O-])(=O)=O)(=O)=O)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-TexRed-linked cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 46,
+    "structure_image": "structure_46.png",
+    "fields": {
+      "Compound": "4'O-biotin-linked cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0052",
+      "Quantity": 0.61,
+      "IC50": "no visible effect",
+      "Synonyms": "WC 117\nCompound 9",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C52H75N7O10S",
+      "Total Molweight": 990.273,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OCc1c[n](CCOCCOCCOCCNC(CCCCC([C@H]2N3)SC[C@@H]2NC3=O)=O)nn1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'O-biotin-linked cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 47,
+    "structure_image": "structure_47.png",
+    "fields": {
+      "Compound": "4'-4' Cytochalasin H dimer",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0053",
+      "Quantity": 0.41,
+      "IC50": 8.227,
+      "Synonyms": "WC074\ncompound 24",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C60H76N2O10",
+      "Total Molweight": 985.267,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1-c1ccc(C[C@@H](C([C@H](C)C([C@H]([C@@H]2/C=C/C[C@H](C)C[C@](C)(/C=C3)O)O)=C)[C@]22C\\3OC(C)=O)NC2=O)cc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-4' Cytochalasin H dimer 1.png"
+    }
+  },
+  {
+    "mol_idx": 48,
+    "structure_image": "structure_48.png",
+    "fields": {
+      "Compound": "4'-(1-(4-p-bromophenyltriazolyl)) Cytochalasin H",
+      "Origin": "Magnporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0054",
+      "Quantity": "available",
+      "IC50": 0.364,
+      "Synonyms": "WC084\ncompound 5c",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C39H45N4O4Br",
+      "Total Molweight": 713.714,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(-c(cc2)ccc2Br)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-(1-(4-p-bromophenyltriazolyl)) Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 49,
+    "structure_image": "structure_49.png",
+    "fields": {
+      "Compound": "4'-Amino cytochalasin H",
+      "Origin": "Magnaporte grisea\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0055",
+      "Quantity": 0.78,
+      "IC50": 2.3601,
+      "Synonyms": "WC078\nCompound 1i",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C31H42N2O4",
+      "Total Molweight": 506.684,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1N)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Amino cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 50,
+    "structure_image": "structure_50.png",
+    "fields": {
+      "Compound": "4'-Prop-1-ynyl Cytochalsin H",
+      "Origin": "Magnaporte grisea\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+/-",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0056",
+      "Quantity": "available",
+      "IC50": 5.27,
+      "Synonyms": "WC120\ncompound 22",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C33H41NO5",
+      "Total Molweight": 531.691,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1C#CC)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Prop-1-ynyl Cytochalsin H.png"
+    }
+  },
+  {
+    "mol_idx": 51,
+    "structure_image": "structure_51.png",
+    "fields": {
+      "Compound": "Cytochalasin H Dimer",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.20",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0057",
+      "Quantity": 0.23,
+      "IC50": 1.664,
+      "Synonyms": "WC119\ncompound 25",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C63H79N5O11",
+      "Total Molweight": 1082.34,
+      "Smiles": "C[C@@H](C([C@H](Cc(cc1)ccc1-[n]1nnc(COc2ccc(C[C@@H](C([C@H](C)C([C@H]([C@@H]3/C=C/C[C@H](C)C[C@](C)(/C=C4)O)O)=C)[C@]33C\\4OC(C)=O)NC3=O)cc2)c1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-4' Cytochalasin H dimer 1.png"
+    }
+  },
+  {
+    "mol_idx": 52,
+    "structure_image": "structure_52.png",
+    "fields": {
+      "Compound": "4'-(1-(4-phenyltriazolyl)) cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthesis\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0058",
+      "Quantity": 0.19,
+      "IC50": 0.503,
+      "Synonyms": "WC 079\ncompound 5b",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C39H46N4O4",
+      "Total Molweight": 634.818,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(-c2ccccc2)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-(1-(4-phenyltriazolyl)) cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 53,
+    "structure_image": "structure_53.png",
+    "fields": {
+      "Compound": "4'-Iodo Cytochalasin H",
+      "Origin": "Magnaporte grisea\nmuta-synthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241. Epub 2020 Sep 17. PMID: 32484589; PMCID: PMC7692911.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0059",
+      "Quantity": 2.39,
+      "IC50": 0.128,
+      "Synonyms": "WC097\nCompound 1e",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H38NO5I",
+      "Total Molweight": 619.534,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1I)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Iodo Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 54,
+    "structure_image": "structure_54.png",
+    "fields": {
+      "Compound": "4'-Perylene linked Cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0060",
+      "Quantity": 0.9,
+      "IC50": 43.305,
+      "Synonyms": "WC077B but also WC077A and WC077\ncompound 13",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C55H56N4O5",
+      "Total Molweight": 853.073,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COCc2cc3cccc(-c4c5c6cccc5ccc4)c3c-6c2)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Perylene linked Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 55,
+    "structure_image": "structure_55.png",
+    "fields": {
+      "Compound": "4'-Biotin-triazole-linked Cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0061",
+      "Quantity": 1.54,
+      "IC50": "small proliferation inhibition",
+      "Synonyms": "WC093\ncompound 7a",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C44H58N6O7S",
+      "Total Molweight": 815.046,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COC(CCCCC([C@H]2N3)SC[C@@H]2NC3=O)=O)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Biotin-triazole-linked Cytochalasin H 1.png"
+    }
+  },
+  {
+    "mol_idx": 56,
+    "structure_image": "structure_56.png",
+    "fields": {
+      "Compound": "4'-Azido cytochalasin H",
+      "Origin": "Magnaporte grisea\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0062",
+      "Quantity": 2.02,
+      "IC50": 0.082,
+      "Synonyms": "WC075\ncompound 1h",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C31H40N4O4",
+      "Total Molweight": 532.683,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1N=[N+]=[N-])N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Azido cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 57,
+    "structure_image": "structure_57.png",
+    "fields": {
+      "Compound": "Cytochalasin H penicillin G adduct",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0063",
+      "Quantity": 2.54,
+      "IC50": 25.375,
+      "Synonyms": "WC096\ncompound 11",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C50H60N6O8S",
+      "Total Molweight": 905.126,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COC(C(C(C)(C)S[C@@H]2[C@@H]3NC(Cc4ccccc4)=O)N2C3=O)=O)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Cytochalasin H penicillin G adduct.png"
+    }
+  },
+  {
+    "mol_idx": 58,
+    "structure_image": "structure_58.png",
+    "fields": {
+      "Compound": "4'-Pinacolborolanyl Cytochalasin H",
+      "Origin": "Magnaporte grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0064",
+      "Quantity": 1.26,
+      "IC50": 1.937,
+      "Synonyms": "WC073\ncompound 23",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C36H50NO7B",
+      "Total Molweight": 619.604,
+      "Smiles": "C[C@@H](C([C@H](Cc1ccc(B2OC(C)(C)C(C)(C)O2)cc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)(C\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-Pinacolborolanyl Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 59,
+    "structure_image": "structure_59.png",
+    "fields": {
+      "Compound": "Deoxaphomin",
+      "Origin": "Preussia similis",
+      "Reference": "Kretz, R., Wendt, L., Wongkanoun, S., Luangsa-ard, J., Surup, F., Helaly, S., … Stradal, T. (2019). The Effect of Cytochalasans on the Actin Cytoskeleton of Eukaryotic Cells and Preliminary Structure–Activity Relationships. Biomolecules, 9(2), 73. doi:10.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "-",
+      "Box ID": "2C0066",
+      "Quantity": 1.73,
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C29H37NO4",
+      "Total Molweight": 463.616,
+      "Smiles": "C[C@@H](C(C(Cc1ccccc1)NC1=O)[C@@]1(C([C@@H]1O)C=CC[C@H](C)CCC[C@@H](/C=C2)O)C\\2=O)C1=C",
+      "Image File": "Deoxaphomin B.png"
+    }
+  },
+  {
+    "mol_idx": 60,
+    "structure_image": "structure_60.png",
+    "fields": {
+      "Compound": "Aspochalasin D",
+      "Origin": "Aspergillus niveus\nPurchased  Aspergillus microcysticus",
+      "Reference": "Gebhardt K, Schimana J, Höltzel A, Dettner K, Draeger S, Beil W, Rheinheimer J, Fiedler HP. Aspochalamins A-D and aspochalasin Z produced by the endosymbiotic Fungus aspergillus niveus LU 9575. I. Taxonomy, fermentation, isolation and biological activities. J Antibiot (Tokyo). 2004 Nov;57(11):707-14. doi: 10.7164/antibiotics.57.707. PMID: 15712664.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "-",
+      "Box ID": "2C0071",
+      "Quantity": 0.38,
+      "IC50": "0.66 µg/mL",
+      "Synonyms": "AD",
+      "Subclass": "Aspochalasin",
+      "Molecular Formula": "C24H35NO4",
+      "Total Molweight": 401.545,
+      "Smiles": "CC(C)C[C@@H]([C@H]([C@H](C)C(C)=C[C@@H]1/C=C(\\C)/CC[C@H]([C@H](/C=C2)O)O)[C@]11C\\2=O)NC1=O"
+    }
+  },
+  {
+    "mol_idx": 61,
+    "structure_image": "structure_61.png",
+    "fields": {
+      "Compound": "Aspochalasin I",
+      "Origin": "Purchased",
+      "Reference": "Zhou GX, Wijeratne EM, Bigelow D, Pierson LS 3rd, VanEtten HD, Gunatilaka AA. Aspochalasins I, J, and K: three new cytotoxic cytochalasans of Aspergillus flavipes from the rhizosphere of Ericameria laricifolia of the Sonoran Desert. J Nat Prod. 2004 Mar;67(3):328-32. doi: 10.1021/np030353m. PMID: 15043404.",
+      "Actin Disruption Activity": "+/-",
+      "Reversibilty": "+",
+      "Box ID": "2C0072",
+      "Quantity": 1.01,
+      "IC50": "5.1 µg/mL",
+      "Synonyms": "AI",
+      "Subclass": "Aspochalasin",
+      "Molecular Formula": "C24H35NO5",
+      "Total Molweight": 417.544,
+      "Smiles": "CC(C)C[C@@H]([C@H]([C@H](C)C(C)=C[C@@H]1/C=C(\\C)/CC[C@H]([C@H](/C=C2)O)O)[C@]11OC\\2=O)NC1=O"
+    }
+  },
+  {
+    "mol_idx": 62,
+    "structure_image": "structure_62.png",
+    "fields": {
+      "Compound": "Aspochalasin M",
+      "Origin": "Purchased",
+      "Reference": "Zhenjian Lin; Tianjiao Zhu; Hongjuan Wei; Guojian Zhang; Hui Wang; Qianqun Gu (2009). Spicochalasin A and New Aspochalasins from the Marine-Derived Fungus Spicaria elegans. , 2009(18), 3045–3051.doi:10.1002/ejoc.200801085",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0073",
+      "Quantity": 1.7,
+      "IC50": "18 µg/mL",
+      "Synonyms": "AM",
+      "Subclass": "Aspochalasin",
+      "Molecular Formula": "C24H35NO4",
+      "Total Molweight": 401.545,
+      "Smiles": "CC(C)C[C@@H]([C@H]([C@H](C)C(C)=C[C@@H]1/C=C(\\C)/CCC([C@H](CC2)O)=O)[C@]11C2=O)NC1=O"
+    }
+  },
+  {
+    "mol_idx": 63,
+    "structure_image": "structure_63.png",
+    "fields": {
+      "Compound": "Cytochalasin B1",
+      "Origin": "Preussia similis\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0074",
+      "Quantity": "0.83 mg\n1.3 mg\n1.3 mg",
+      "IC50": "8.3 µg/mL",
+      "Synonyms": "CB1",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C31H39NO6",
+      "Total Molweight": 521.652,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)NC1=O)[C@@]1([C@H]([C@@H]1OC(C)=O)/C=C/C[C@H](C)CCC[C@H](/C=C2)O)OC\\2=O)C1=C",
+      "Image File": "Cytochalasin B1.png"
+    }
+  },
+  {
+    "mol_idx": 64,
+    "structure_image": "structure_64.png",
+    "fields": {
+      "Compound": "Cytochalasin B2",
+      "Origin": "Preussia similis\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0075",
+      "Quantity": "0.41 mg\n3.9 mg",
+      "IC50": "none",
+      "Synonyms": "CB2",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO5",
+      "Total Molweight": 493.642,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N(C)C1=O)[C@@]1([C@H]([C@@H]1O)/C=C/C[C@H](C)CCC[C@@H](/C=C2)O)OC\\2=O)C1=C",
+      "Image File": "Cytochalasin B2.png"
+    }
+  },
+  {
+    "mol_idx": 65,
+    "structure_image": "structure_65.png",
+    "fields": {
+      "Compound": "Cytochalasin B3",
+      "Origin": "Preussia similis\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0078",
+      "Quantity": 0.4,
+      "IC50": "4.8 µg/mL",
+      "Synonyms": "CB3",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C31H39NO6",
+      "Total Molweight": 521.652,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N(C(C)=O)C1=O)[C@@]1([C@H]([C@@H]1O)/C=C/C[C@H](C)CCC[C@@H](/C=C2)O)OC\\2=O)C1=C",
+      "Image File": "Cytochalasin B3.png"
+    }
+  },
+  {
+    "mol_idx": 66,
+    "structure_image": "structure_66.png",
+    "fields": {
+      "Compound": "Cytochalasin B4",
+      "Origin": "Preussia similis\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0079",
+      "Quantity": "0.8 mg\n1.3 mg\n1.3 mg",
+      "IC50": "2.5 µg/mL",
+      "Synonyms": "CB4",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C31H39NO6",
+      "Total Molweight": 521.652,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)NC1=O)[C@@]1([C@H]([C@@H]1O)/C=C/C[C@H](C)CCC[C@H](/C=C2)OC(C)=O)OC\\2=O)C1=C",
+      "Image File": "Cytochalasin B4.png"
+    }
+  },
+  {
+    "mol_idx": 67,
+    "structure_image": "structure_67.png",
+    "fields": {
+      "Compound": "19,20-Epoxycytochalasin C1",
+      "Origin": "Xylaria karyophthora\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "+",
+      "Box ID": "2C0080",
+      "Quantity": 0.7,
+      "IC50": "8.0 µg/mL",
+      "Synonyms": "KL-EpoxyCyto C-01",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO8",
+      "Total Molweight": 539.623,
+      "Smiles": "C[C@@H](C[C@H]1O[C@@H]1[C@@H]([C@@H](C(C)=C(C)[C@H]1[C@H](Cc2ccccc2)N2)O)[C@]1([C@@H]([C@@H]1O[C@H]1[C@@]1(C)O)OC(C)=O)C2=O)C1=O",
+      "Image File": "19,20 Epoxycytochalasin C.png"
+    }
+  },
+  {
+    "mol_idx": 68,
+    "structure_image": "structure_68.png",
+    "fields": {
+      "Compound": "19,20-Epoxycytochalasin C2",
+      "Origin": "Xylaria karyophthora\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0081",
+      "Quantity": 2.5,
+      "IC50": "0.88 µg/mL",
+      "Synonyms": "KL-EpoxyCyto C-02",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H35NO6",
+      "Total Molweight": 481.587,
+      "Smiles": "C[C@@H](C/C=C/[C@@H]([C@@H](C(C)=C(C)[C@H]1[C@H](Cc2ccccc2)N2)O)[C@]1([C@@H]([C@@H]1O[C@H]1[C@@]1(C)O)O)C2=O)C1=O",
+      "Image File": "19,20 Epoxycytochalasin C.png"
+    }
+  },
+  {
+    "mol_idx": 69,
+    "structure_image": "structure_69.png",
+    "fields": {
+      "Compound": "Cytochalasin RKS-1778",
+      "Origin": "Diaporte ueckeri",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "2C0082",
+      "Quantity": 0.69,
+      "IC50": "0.62 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO4",
+      "Total Molweight": 477.643,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]2([C@@H](/C=C3)OC(C)=O)C1=O)C(C)=C[C@@H]2/C=C/C[C@H](C)C[C@@]\\3(C)O",
+      "Image File": "Cytochalasin RKS-1778.png"
+    }
+  },
+  {
+    "mol_idx": 70,
+    "structure_image": "structure_70.png",
+    "fields": {
+      "Compound": "Phomopchalasin N",
+      "Origin": "Diaporte ueckeri",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0083",
+      "Quantity": 0.59,
+      "IC50": "4.7 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H37NO3",
+      "Total Molweight": 435.606,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)C2([C@@H](/C=C3)O)C1=O)C(C)=C[C@@H]2/C=C/C[C@H](C)C[C@@]\\3(C)O",
+      "Image File": "Phomopchalasin N.png"
+    }
+  },
+  {
+    "mol_idx": 71,
+    "structure_image": "structure_71.png",
+    "fields": {
+      "Compound": "21-acetoxycytochalasin J3",
+      "Origin": "Diaporte ueckeri",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "+/-",
+      "Reversibilty": "+",
+      "Box ID": "2C0084",
+      "Quantity": 0.59,
+      "IC50": "21 µg/mL",
+      "Synonyms": "no",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO4",
+      "Total Molweight": 475.627,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@@H]2[C@@H]3O[C@H]4[C@@H]2[C@@H](C2)C(C)=C[C@@H](C)C4)([C@@H]2OC(C)=O)C1=O)C3=C",
+      "Image File": "21-acetoxycytochalasin J3.png"
+    }
+  },
+  {
+    "mol_idx": 72,
+    "structure_image": "structure_72.png",
+    "fields": {
+      "Compound": "Phomopchalasin D",
+      "Origin": "Diaporte ueckeri;\nsemi-synthetic",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "+/-",
+      "Reversibilty": "+",
+      "Box ID": "2C0085",
+      "Quantity": 0.74,
+      "IC50": "none",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO5",
+      "Total Molweight": 493.642,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@@H]([C@H]([C@@H]2/C=C(/C)\\C[C@@H](C)C3)[C@@H]3O)[C@@H]3O)([C@@H]2OC(C)=O)C1=O)C3=C",
+      "Image File": "Phomopchalasin D.png"
+    }
+  },
+  {
+    "mol_idx": 73,
+    "structure_image": "structure_73.png",
+    "fields": {
+      "Compound": "Phomopchalasin A",
+      "Origin": "Diaporte ueckeri;\nsemi-synthetic",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0086",
+      "Quantity": 0.98,
+      "IC50": "none",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H37NO4",
+      "Total Molweight": 451.605,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@@H]([C@H]([C@@H]2/C=C(/C)\\C[C@@H](C)C3)[C@@H]3O)[C@@H]3O)([C@@H]2O)C1=O)C3=C",
+      "Image File": "Phomopchalasin A.png"
+    }
+  },
+  {
+    "mol_idx": 74,
+    "structure_image": "structure_74.png",
+    "fields": {
+      "Compound": "Cytochalasin J4",
+      "Origin": "Diaporte ueckeri;\nsemi synthetic",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0087",
+      "Quantity": 0.69,
+      "IC50": "none",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C29H39NO4",
+      "Total Molweight": 465.632,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@@H](C([C@@H]2/C=C(/C)\\C[C@@H](C)C3)[C@@H]3OC)[C@@H]3O)([C@@H]2O)C1=O)C3=C",
+      "Image File": "Cytochalasin J4.png"
+    }
+  },
+  {
+    "mol_idx": 75,
+    "structure_image": "structure_75.png",
+    "fields": {
+      "Compound": "Cytochalasin J5",
+      "Origin": "Diaporte ueckeri;\nsemi-synthetic",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0088",
+      "Quantity": 0.25,
+      "IC50": "none",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H37NO4",
+      "Total Molweight": 451.605,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@@H]2[C@@H]3O[C@H](C[C@H](C)C4)[C@H]2[C@@H](C2)[C@]4(C)O)([C@@H]2O)C1=O)C3=C",
+      "Image File": "Cytochalasin J5.png"
+    }
+  },
+  {
+    "mol_idx": 76,
+    "structure_image": "structure_76.png",
+    "fields": {
+      "Compound": "Pseudofuscochalasin A",
+      "Origin": "Hypoxylon fuscum",
+      "Reference": "Lambert, C.; Pourmoghaddam, M.J.; Cedeño-Sanchez, M.; Surup, F.; Khodaparast, S.A.; Krisai-Greilhuber, I.; Voglmayr, H.; Stradal, T.E.B.; Stadler, M. Resolution of the Hypoxylon fuscum Complex (Hypoxylaceae, Xylariales) and Discovery and Biological Charac",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "-",
+      "Box ID": "2C0089",
+      "Quantity": "available",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H33NO5",
+      "Total Molweight": 463.572,
+      "Smiles": "C[C@@H](C/C=C/[C@@H]([C@@H](C(C)=C(C)C1C(Cc2ccccc2)NC2=O)O)[C@@]12C(/C=C/[C@@]1(C)O)=O)C1=O",
+      "Image File": "Pseudofuscochalasin A.png"
+    }
+  },
+  {
+    "mol_idx": 77,
+    "structure_image": "structure_77.png",
+    "fields": {
+      "Compound": "Triseptatin",
+      "Origin": "Sparticola triseptata",
+      "Reference": "Garcia, K.Y.M.; Quimque, M.T.J.; Lambert, C.; Schmidt, K.; Primahana, G.; Stradal, T.E.B.; Ratzenböck, A.; Dahse, H.-M.; Phukhamsakda, C.; Stadler, M.; Surup, F.; Macabeo, A.P.G. Antiproliferative and Cytotoxic Cytochalasins from Sparticola triseptata Inh",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0090",
+      "Quantity": 0.1,
+      "IC50": "2.1 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C31H39NO5",
+      "Total Molweight": 505.653,
+      "Smiles": "C[C@@H](C(C(Cc1ccccc1)NC1=O)[C@@]1(C([C@@H]1O)C=CC[C@H](C)CCC[C@H](/C=C2)OC(C)=O)C\\2=O)C1=C",
+      "Image File": "Triseptatin A.png"
+    }
+  },
+  {
+    "mol_idx": 78,
+    "structure_image": "structure_78.png",
+    "fields": {
+      "Compound": "Deoxaphomin B",
+      "Origin": "Sparticola triseptata",
+      "Reference": "Garcia, K.Y.M.; Quimque, M.T.J.; Lambert, C.; Schmidt, K.; Primahana, G.; Stradal, T.E.B.; Ratzenböck, A.; Dahse, H.-M.; Phukhamsakda, C.; Stadler, M.; Surup, F.; Macabeo, A.P.G. Antiproliferative and Cytotoxic Cytochalasins from Sparticola triseptata Inh",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0091",
+      "Quantity": 1.27,
+      "IC50": "2.4 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C29H37NO4",
+      "Total Molweight": 463.616,
+      "Smiles": "C[C@H](CCC[C@H](/C=C1)O)CC=CC([C@@H](C(C)=C(C)C2C(Cc3ccccc3)NC3=O)O)[C@@]23C\\1=O",
+      "Image File": "Deoxaphomin B.png"
+    }
+  },
+  {
+    "mol_idx": 79,
+    "structure_image": "structure_79.png",
+    "fields": {
+      "Compound": "19,20-Epoxycytochalasin C",
+      "Origin": "Rosellinia rickii\nHypoxylon fragiforme\nXylaria karyophthora",
+      "Reference": "Yuyama, K.T.; Wendt, L.; Surup, F.; Kretz, R.; Chepkirui, C.; Wittstein, K.; Boonlarppradab, C.; Wongkanoun, S.; Luangsa-ard, J.J.; Stadler, M.; et al. Cytochalasans act as inhibitors of biofilm formation of Staphylococcus aureus. Biomolecules 2015, 8, 4.\nLambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0092",
+      "Quantity": "available",
+      "IC50": "0.23 µg/mL\n0.4 µM",
+      "Synonyms": "EpoxyCyto C",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO7",
+      "Total Molweight": 523.624,
+      "Smiles": "C[C@@H](C/C=C/C([C@@H](C(C)=C(C)C1[C@H](Cc2ccccc2)N2)O)[C@]1([C@@H]([C@@H]1O[C@H]1[C@@]1(C)O)OC(C)=O)C2=O)C1=O",
+      "Image File": "19,20 Epoxycytochalasin C.png"
+    }
+  },
+  {
+    "mol_idx": 80,
+    "structure_image": "structure_80.png",
+    "fields": {
+      "Compound": "Cytochalasin J",
+      "Origin": "Diaporte ueckeri",
+      "Reference": "Kemkuignou BM, Lambert C, Schmidt K, Schweizer L, Anoumedem EGM, Kouam SF, Stadler M, Stradal T, Marin-Felix Y. Unreported cytochalasins from an acid-mediated transformation of cytochalasin J isolated from Diaporthe cf. ueckeri. Fitoterapia. 2023 Apr;166:105434. doi: 10.1016/j.fitote.2023.105434. Epub 2023 Jan 19. PMID: 36681097.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0093",
+      "Quantity": 1.1,
+      "IC50": "0.69 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H37NO4",
+      "Total Molweight": 451.605,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3O)C1=O)C2=C",
+      "Image File": "Cytochalasin J.png"
+    }
+  },
+  {
+    "mol_idx": 81,
+    "structure_image": "structure_81.png",
+    "fields": {
+      "Compound": "Pyrichalasin H3",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0095",
+      "Quantity": 2.35,
+      "IC50": "0.37 µg/mL",
+      "Synonyms": "KL-Pyri-03",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C43H49NO11",
+      "Total Molweight": 755.858,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]([C@H]([C@@H]2OC(OCC(c(ccc(OC)c3)c3O3)=CC3=O)=O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 82,
+    "structure_image": "structure_82.png",
+    "fields": {
+      "Compound": "Pyrichalasin H4",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0096",
+      "Quantity": 0.223,
+      "IC50": "0.91 µg/mL",
+      "Synonyms": "KL-Pyri-04",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C43H52N3O6BF2",
+      "Total Molweight": 755.708,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(CCc3ccc(C=C4[N+]5=C(C)C=C4C)[n]3[B-]5(F)F)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 83,
+    "structure_image": "structure_83.png",
+    "fields": {
+      "Compound": "19,20-Epoxycytochalasin C4",
+      "Origin": "Xylaria karyophthora\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0097",
+      "Quantity": 0.54,
+      "IC50": "5 µg/mL",
+      "Synonyms": "KL-EpoxyCyto C-04",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C42H48N3O7BF2",
+      "Total Molweight": 755.664,
+      "Smiles": "C[C@@H](C/C=C/C([C@@H](C(C)=C(C)C1C(Cc2ccccc2)N2)O)[C@]1([C@@H]([C@@H]1O[C@H]1[C@@]1(C)O)OC(CCc3ccc(C=C4[N+]5=C(C)C=C4C)[n]3[B-]5(F)F)=O)C2=O)C1=O",
+      "Image File": "19,20 Epoxycytochalasin C.png"
+    }
+  },
+  {
+    "mol_idx": 84,
+    "structure_image": "structure_84.png",
+    "fields": {
+      "Compound": "N3-Pyrichalasin H2",
+      "Origin": "Magnaporte grisea,\nsemi synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0098",
+      "Quantity": "available",
+      "IC50": "none",
+      "Synonyms": "KL-N3Pyri-02",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C59H69N8O13BF2",
+      "Total Molweight": 1147.05,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COCCNC(CCc2ccc(C=C3[N+]4=C(C)C=C3C)[n]2[B-]4(F)F)=O)c1)N1)[C@@]([C@H]([C@@H]2OC(OCc(cc(c(OC)c3)OC)c3[N+]([O-])=O)=O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 85,
+    "structure_image": "structure_85.png",
+    "fields": {
+      "Compound": "N3-Pyrichalasin H3",
+      "Origin": "Magnaporte grisea,\nsemi synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "not tested",
+      "Box ID": "2C0099",
+      "Quantity": "available",
+      "IC50": "none",
+      "Synonyms": "KL-N3Pyri-03",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C67H76N7O10BF2S",
+      "Total Molweight": 1220.25,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(COCCNC(CCc2ccc(C=C3[N+]4=C(C)C=C3C)[n]2[B-]4(F)F)=O)c1)N1)[C@@]([C@H]([C@@H]2OC(CC(C)(C)C(C(C=C3SCc4ccccc4)=O)=CC3=O)=O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Pyrichalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 86,
+    "structure_image": "structure_86.png",
+    "fields": {
+      "Compound": "Chaetoglobosin A",
+      "Origin": "Purchased",
+      "Reference": "Ashrafi, S.; Helaly, S.E.; Schroers, H.J.; Stadler, M.; Richert-Poeggeler, K.R.; Dababat, A.A.; Maier, W. Ijuhya vitellina sp. nov., a novel source for chaetoglobosin A, is a destructive parasite of the cereal cyst nematode Heterodera filipjevi. PLoS ONE",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "-",
+      "Box ID": "2C0100",
+      "Quantity": "0.63 mg\n1 mg",
+      "IC50": "3.6 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Chaetoglobosin",
+      "Molecular Formula": "C32H36N2O5",
+      "Total Molweight": 528.647,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1c[nH]c2c1cccc2)NC1=O)[C@@]11C(/C=C/C2=O)=O)[C@@]3(C)O[C@H]3[C@@H]1/C=C/C[C@H](C)/C=C(\\C)/[C@H]2O",
+      "Image File": "Chaetoglobosin B.png"
+    }
+  },
+  {
+    "mol_idx": 87,
+    "structure_image": "structure_87.png",
+    "fields": {
+      "Compound": "19-OAc-Chaetoglobosin A",
+      "Origin": "Purchased",
+      "Reference": "S. Sekita, K. Yoshihira, S. Natori, H. Kuwano,Structures of chaetoglobosin A and B, cytotoxic metabolites of chaetomium globosum,\nTetrahedron Letters,Volume 14, Issue 23,1973,Pages 2109-2112,ISSN 0040-4039, https://doi.org/10.1016/S0040-4039(01)86820-9.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "-",
+      "Box ID": "2C0101",
+      "Quantity": 1,
+      "IC50": "0.66 µg/mL",
+      "Synonyms": "19-OAc-ChA",
+      "Subclass": "Chaetoglobosin",
+      "Molecular Formula": "C34H38N2O6",
+      "Total Molweight": 570.684,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1c[nH]c2c1cccc2)NC1=O)[C@@]11C(/C=C/C2=O)=O)[C@@]3(C)O[C@H]3[C@@H]1/C=C/C[C@H](C)/C=C(\\C)/[C@H]2OC(C)=O",
+      "Image File": "Chaetoglobosin B.png"
+    }
+  },
+  {
+    "mol_idx": 88,
+    "structure_image": "structure_88.png",
+    "fields": {
+      "Compound": "Chaetoglobosin B",
+      "Origin": "Ijuhya vitellina",
+      "Reference": "Moussa, A.Y.; Lambert, C.; Stradal, T.E.B.; Ashrafi, S.; Maier, W.; Stadler, M.; Helaly, S.E. New Peptaibiotics and a Cyclodepsipeptide from Ijuhya vitellina: Isolation, Identification, Cytotoxic and Nematicidal Activities. Antibiotics 2020, 9, 132. https://doi.org/10.3390/antibiotics9030132",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "-",
+      "Box ID": "2C0102",
+      "Quantity": "available",
+      "IC50": "2.3 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Chaetoglobosin",
+      "Molecular Formula": "C32H36N2O5",
+      "Total Molweight": 528.647,
+      "Smiles": "C[C@@H](C/C=C/[C@@H]([C@@H](C(C)=C(C)[C@H]1[C@H](Cc2c[nH]c3c2cccc3)NC2=O)O)[C@@]12C(/C=C/C1=O)=O)/C=C(\\C)/[C@H]1O",
+      "Image File": "Chaetoglobosin B.png"
+    }
+  },
+  {
+    "mol_idx": 89,
+    "structure_image": "structure_89.png",
+    "fields": {
+      "Compound": "Chaetoglobosin C",
+      "Origin": "Purchased",
+      "Reference": "",
+      "Actin Disruption Activity": "+/-",
+      "Reversibilty": "+",
+      "Box ID": "2C0103",
+      "Quantity": 1,
+      "IC50": "none",
+      "Synonyms": "",
+      "Subclass": "Chaetoglobosin",
+      "Molecular Formula": "C32H36N2O5",
+      "Total Molweight": 528.647,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1c[nH]c2c1cccc2)NC1=O)[C@@]11C(CCC2=O)=O)[C@@]3(C)O[C@H]3[C@@H]1/C=C/C[C@H](C)/C=C(\\C)/C2=O",
+      "Image File": "Chaetoglobosin B.png"
+    }
+  },
+  {
+    "mol_idx": 90,
+    "structure_image": "structure_90.png",
+    "fields": {
+      "Compound": "Chaetoglobosin F",
+      "Origin": "Purchased",
+      "Reference": "",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "2C0104",
+      "Quantity": 1,
+      "IC50": "5.3 mg/mL",
+      "Synonyms": "",
+      "Subclass": "Chaetoglobosin",
+      "Molecular Formula": "C32H38N2O5",
+      "Total Molweight": 530.663,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1c[nH]c2c1cccc2)NC1=O)[C@@]11C(CC[C@@H]2O)=O)[C@@]3(C)O[C@H]3[C@@H]1/C=C/C[C@H](C)/C=C(\\C)/C2=O",
+      "Image File": "Chaetoglobosin B.png"
+    }
+  },
+  {
+    "mol_idx": 91,
+    "structure_image": "structure_91.png",
+    "fields": {
+      "Compound": "Azulenochalasin H",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "+/-",
+      "Box ID": "2C0105",
+      "Quantity": 0.46,
+      "IC50": "0.18 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Azulenochalasin",
+      "Molecular Formula": "C34H41NO5",
+      "Total Molweight": 543.702,
+      "Smiles": "C[C@@H]([C@@H]([C@H](CC(C=C1)=CC=C2C1=CC=C2)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 92,
+    "structure_image": "structure_92.png",
+    "fields": {
+      "Compound": "ACE1-B",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "2C0106",
+      "Quantity": 2.18,
+      "IC50": "15 µg/mL",
+      "Synonyms": "AMK75-B",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H37NO5",
+      "Total Molweight": 503.637,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)NC1=O)[C@@]11C(/C=C/CC2)=O)C(C)=C[C@@H]1/C=C/C[C@H](C)/C=C/2\\C(O)=O"
+    }
+  },
+  {
+    "mol_idx": 93,
+    "structure_image": "structure_93.png",
+    "fields": {
+      "Compound": "ACE1-A1",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "2C0107",
+      "Quantity": 0.88,
+      "IC50": "5.8 µg/mL",
+      "Synonyms": "AMK75-C",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H39NO4",
+      "Total Molweight": 489.654,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)NC1=O)[C@@]11C(/C=C/C/C=C2\\C)=O)C(C)=C[C@@H]1/C=C/C[C@H](C)C\\2O"
+    }
+  },
+  {
+    "mol_idx": 94,
+    "structure_image": "structure_94.png",
+    "fields": {
+      "Compound": "ACE1-V",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "2C0108",
+      "Quantity": 0.53,
+      "IC50": "3.7 µg/mL",
+      "Synonyms": "AMK75-E",
+      "Subclass": "Pyrichalasin",
+      "Molecular Formula": "C31H39NO3",
+      "Total Molweight": 473.655,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC)N1)[C@@]23C1=O)C(C)=C[C@@H]2/C=C/C[C@H](C)/C=C(\\C)/CC/C=C/C3=O"
+    }
+  },
+  {
+    "mol_idx": 95,
+    "structure_image": "structure_95.png",
+    "fields": {
+      "Compound": "Cytochalasin B - NQO1 cleaveable",
+      "Origin": "Preussia similis\nsemi-synthetic",
+      "Reference": "",
+      "Actin Disruption Activity": "different activities in different cell lines",
+      "Reversibilty": "not tested",
+      "Box ID": "3C0109",
+      "Quantity": "0.5 mg\n1 mg",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C43H53NO8",
+      "Total Molweight": 711.893,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)NC1=O)[C@@]1([C@H]([C@@H]1OC(CC(C)(C)C(C(C(C)=C2C)=O)=C(C)C2=O)=O)/C=C/C[C@H](C)CCC[C@@H](/C=C2)O)OC\\2=O)C1=C",
+      "Image File": "Cytochalasin B.png"
+    }
+  },
+  {
+    "mol_idx": 96,
+    "structure_image": "structure_96.png",
+    "fields": {
+      "Compound": "Hypoxilin A",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "3C0110",
+      "Quantity": 0.55,
+      "IC50": "0.07 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO6",
+      "Total Molweight": 507.625,
+      "Smiles": "C[C@H](C([C@H](Cc1ccccc1)N1)C([C@H]([C@@H]2O)/C=C/C[C@H](C)C([C@@](C)(/C=C3)O)=O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "Hypoxilin A.png"
+    }
+  },
+  {
+    "mol_idx": 97,
+    "structure_image": "structure_97.png",
+    "fields": {
+      "Compound": "Cytochalasin R",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "3C0111",
+      "Quantity": 0.4,
+      "IC50": "1.9 µg/mL",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO6",
+      "Total Molweight": 509.641,
+      "Smiles": "C[C@@H]([C@H]1[C@H](Cc2ccccc2)N2)[C@@]3(C)O[C@H]3[C@H]([C@@H]3OC3C[C@H](C)C[C@@](C)(/C=C/[C@H]3OC(C)=O)O)[C@]13C2=O",
+      "Image File": "Cytochalasin R.png"
+    }
+  },
+  {
+    "mol_idx": 98,
+    "structure_image": "structure_98.png",
+    "fields": {
+      "Compound": "Saccalasin A",
+      "Origin": "Daldinia sacchari",
+      "Reference": "Narmani, A.; Pichai, S.; Palani, P.; Arzanlou, M.; Surup, F.; Stadler, M. Saccalasins A and B, two new cytochalasins from Daldinia sacchari (Ascomycota, Hypoxylaceae) and its phylogenetic position, based on a specimen from India. Mycol. Prog. 2019\nKretz, R., Wendt, L., Wongkanoun, S., Luangsa-ard, J., Surup, F., Helaly, S., … Stradal, T. (2019). The Effect of Cytochalasans on the Actin Cytoskeleton of Eukaryotic Cells and Preliminary Structure–Activity Relationships. Biomolecules, 9(2), 73. doi:10.",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H35NO2",
+      "Total Molweight": 417.591,
+      "Smiles": "C[C@@H](C([C@H](Cc1ccccc1)N1)[C@@]23C1=O)C(C)=C[C@@H]2/C=C/C[C@H](C)C[C@@H](C)/C=C/C3=O"
+    }
+  },
+  {
+    "mol_idx": 99,
+    "structure_image": "structure_99.png",
+    "fields": {
+      "Compound": "22,29-dihydroxy-L 696",
+      "Origin": "Actinoplanes sp.",
+      "Reference": "Chen TS,Doss GA, HsuA,Hsu A, Lingham RB, WhiteRF, MonaghanRL(1993) L-696,474, a novel cytochalasin as an inhibitor of HIV-1 protease. J Nat Prod 56:755\nKretz, R., Wendt, L., Wongkanoun, S., Luangsa-ard, J., Surup, F., Helaly, S., … Stradal, T. (2019). The Effect of Cytochalasans on the Actin Cytoskeleton of Eukaryotic Cells and Preliminary Structure–Activity Relationships. Biomolecules, 9(2), 73. doi:10.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "+",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO4",
+      "Total Molweight": 477.643,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C[C@H](C)/C=C3)([C@@H]\\3OC(C)=O)C1=O)C2=C"
+    }
+  },
+  {
+    "mol_idx": 100,
+    "structure_image": "structure_100.png",
+    "fields": {
+      "Compound": "4'-(O-propargyl) Cytochalasin H",
+      "Origin": "Magnaporthe grisea\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": 0.329,
+      "Synonyms": "WC098\ncompound 1g",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C33H41NO5",
+      "Total Molweight": 531.691,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1OC#C)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-(O-propargyl) Cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 101,
+    "structure_image": "structure_101.png",
+    "fields": {
+      "Compound": "Fragiformin D",
+      "Origin": "Hypoxylon fragiforme",
+      "Reference": "Kretz, R., Wendt, L., Wongkanoun, S., Luangsa-ard, J., Surup, F., Helaly, S., … Stradal, T. (2019). The Effect of Cytochalasans on the Actin Cytoskeleton of Eukaryotic Cells and Preliminary Structure–Activity Relationships. Biomolecules, 9(2), 73. doi:10.",
+      "Actin Disruption Activity": "+++",
+      "Reversibilty": "-",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H34NO4",
+      "Total Molweight": 448.581,
+      "Smiles": "C[C@H](C[C@](C)(/C=C1)O)C/C=C/[C@@H]([C@@H]2OC2(C)=C(C)C2[C@H](Cc3ccccc3)NC3=O)[C@@]23C\\1=O"
+    }
+  },
+  {
+    "mol_idx": 102,
+    "structure_image": "structure_102.png",
+    "fields": {
+      "Compound": "Δ-6-12 Cytochalasin E",
+      "Origin": "Dematophora necatrix",
+      "Reference": "Pourmoghaddam, M.J., Ekiz, G., Lambert, C. et al. Studies on the secondary metabolism of Rosellinia and Dematophora strains (Xylariaceae) from Iran. Mycol Progress 21, 65 (2022). https://doi.org/10.1007/s11557-022-01816-x",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+/-",
+      "Box ID": "not included yet",
+      "Quantity": "available",
+      "IC50": "0.084 µg/mL\n0.17 µM",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H33NO7",
+      "Total Molweight": 495.57,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)NC1=O)[C@@]1([C@H]([C@@H]1O)/C=C/C[C@H](C)C([C@@](C)(/C=C/O2)O)=O)OC2=O)C1=C",
+      "Image File": "6-12 Cytochalasin E.png"
+    }
+  },
+  {
+    "mol_idx": 103,
+    "structure_image": "structure_103.png",
+    "fields": {
+      "Compound": "Cytochalasin K",
+      "Origin": "Dematophora necatrix",
+      "Reference": "Pourmoghaddam, M.J., Ekiz, G., Lambert, C. et al. Studies on the secondary metabolism of Rosellinia and Dematophora strains (Xylariaceae) from Iran. Mycol Progress 21, 65 (2022). https://doi.org/10.1007/s11557-022-01816-x",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+/-",
+      "Box ID": "not included yet",
+      "Quantity": "available",
+      "IC50": "7.2 µg/mL\n14.5 µM",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H33NO7",
+      "Total Molweight": 495.57,
+      "Smiles": "C[C@@H](C/C=C/[C@@H]([C@@H](C(C)=C(C)[C@H]1C(Cc2ccccc2)NC2=O)O)[C@@]12OC(O/C=C/[C@@]1(C)O)=O)C1=O",
+      "Image File": "Cytochalasin K Steyn.png"
+    }
+  },
+  {
+    "mol_idx": 104,
+    "structure_image": "structure_104.png",
+    "fields": {
+      "Compound": "19,20-Epoxycytochalasin D",
+      "Origin": "Rosellinia rickii; Xylaria karyophthora",
+      "Reference": "Yuyama, K.T.; Wendt, L.; Surup, F.; Kretz, R.; Chepkirui, C.; Wittstein, K.; Boonlarppradab, C.; Wongkanoun, S.; Luangsa-ard, J.J.; Stadler, M.; et al. Cytochalasans act as inhibitors of biofilm formation of Staphylococcus aureus. Biomolecules 2015, 8, 4.\nLambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "not included yet",
+      "Quantity": "available",
+      "IC50": "0.62 µg/ml\n1.2 µM",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO7",
+      "Total Molweight": 523.624,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C([C@@](C)([C@@H]3O[C@H]33)O)=O)([C@@H]3OC(C)=O)C1=O)C2=C",
+      "Image File": "19,20 Epoxycytochalasin D.png"
+    }
+  },
+  {
+    "mol_idx": 105,
+    "structure_image": "structure_105.png",
+    "fields": {
+      "Compound": "Engleromycin",
+      "Origin": "Xylaria karyophthora",
+      "Reference": "Lambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "",
+      "Quantity": "available",
+      "IC50": 0.9,
+      "Synonyms": "P9-2",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H35NO6",
+      "Total Molweight": 481.587,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@](C([C@@H]2O)C=CC[C@H](C)C([C@@](C)([C@@H]3O[C@H]33)O)=O)([C@@H]3O)C1=O)C2=C",
+      "Image File": "Engleromycin.png"
+    }
+  },
+  {
+    "mol_idx": 106,
+    "structure_image": "structure_106.png",
+    "fields": {
+      "Compound": "19,20-Epoxycytochalasin N",
+      "Origin": "Rosellinia rickii; Xylaria karyophthora",
+      "Reference": "Yuyama, K.T.; Wendt, L.; Surup, F.; Kretz, R.; Chepkirui, C.; Wittstein, K.; Boonlarppradab, C.; Wongkanoun, S.; Luangsa-ard, J.J.; Stadler, M.; et al. Cytochalasans act as inhibitors of biofilm formation of Staphylococcus aureus. Biomolecules 2015, 8, 4.\nLambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "not included yet",
+      "Quantity": "available",
+      "IC50": "none",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C29H35NO8",
+      "Total Molweight": 525.596,
+      "Smiles": "C[C@@H](C/C=C/[C@@H]([C@@H]([C@@H]1O[C@]1(C)[C@H]1[C@H](Cc2ccccc2)N2)O)[C@]1([C@@H]([C@@H]1O[C@H]1[C@@]1(C)O)OC(C)=O)C2=O)C1=O",
+      "Image File": "19,20 Epoxycytochalasin N.png"
+    }
+  },
+  {
+    "mol_idx": 107,
+    "structure_image": "structure_107.png",
+    "fields": {
+      "Compound": "19,20-epoxycytochalasin Q",
+      "Origin": "Xylaria karyophthora",
+      "Reference": "Lambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "+",
+      "Box ID": "not included yet",
+      "Quantity": "available",
+      "IC50": "0.26 µg/ml\n0.5 µM",
+      "Synonyms": "compound 10",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H37NO7",
+      "Total Molweight": 523.624,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)N1)[C@@]2([C@@H]([C@@H]3O[C@H]3[C@@]3(C)O)OC(C)=O)C1=O)[C@@]1(C)O[C@H]1[C@@H]2/C=C/C[C@H](C)C3=O",
+      "Image File": "19,20 Epoxycytochalasin Q.png"
+    }
+  },
+  {
+    "mol_idx": 108,
+    "structure_image": "structure_108.png",
+    "fields": {
+      "Compound": "4'-(1-(4-methyltriazolyl)) cytochalasin H",
+      "Origin": "Magnaporthe grisea\nsemi-synthetic\nmutasynthesis",
+      "Reference": "Wang C, Lambert C, Hauser M, Deuschmann A, Zeilinger C, Rottner K, Stradal TEB, Stadler M, Skellam EJ, Cox RJ. Diversely Functionalised Cytochalasins through Mutasynthesis and Semi-Synthesis. Chemistry. 2020 Oct 27;26(60):13578-13583. doi: 10.1002/chem.202002241.",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": 10.621,
+      "Synonyms": "WC085\ncompound 5a",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C34H44N4O4",
+      "Total Molweight": 572.747,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc(cc1)ccc1-[n]1nnc(C)c1)N1)[C@@]([C@H]([C@@H]2C)/C=C/C[C@H](C)C[C@](C)(/C=C3)O)([C@@H]\\3OC(C)=O)C1=O)C2=C",
+      "Image File": "4'-(1-(4-methyltriazolyl)) cytochalasin H.png"
+    }
+  },
+  {
+    "mol_idx": 109,
+    "structure_image": "structure_109.png",
+    "fields": {
+      "Compound": "Chaetoglobosin D",
+      "Origin": "Ijuhya vitellina",
+      "Reference": "Ashrafi, S.; Helaly, S.E.; Schroers, H.J.; Stadler, M.; Richert-Poeggeler, K.R.; Dababat, A.A.; Maier, W. Ijuhya vitellina sp. nov., a novel source for chaetoglobosin A, is a destructive parasite of the cereal cyst nematode Heterodera filipjevi. PLoS ONE \nKretz, R.; Wendt, L.; Wongkanoun, S.; Luangsa-ard, J.J.; Surup, F.; Helaly, S.E.; Noumeur, S.R.; Stadler, M.; Stradal, T.E.B. The Effect of Cytochalasans on the Actin Cytoskeleton of Eukaryotic Cells and Preliminary Structure–Activity Relationships. Biomolecules 2019, 9, 73. https://doi.org/10.3390/biom9020073",
+      "Actin Disruption Activity": "++",
+      "Reversibilty": "-",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Chaetoglobosin",
+      "Molecular Formula": "C32H36N2O5",
+      "Total Molweight": 528.647,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1c[nH]c2c1cccc2)NC1=O)[C@@]1([C@H]([C@@H]1O)/C=C/C[C@H](C)/C=C(\\C)/[C@H](C(/C=C2)=O)O)C\\2=O)C1=C",
+      "Image File": "Chaetoglobosin B.png"
+    }
+  },
+  {
+    "mol_idx": 110,
+    "structure_image": "structure_110.png",
+    "fields": {
+      "Compound": "Cytochalasin F",
+      "Origin": "Preussia similis",
+      "Reference": "Kretz, R., Wendt, L., Wongkanoun, S., Luangsa-ard, J., Surup, F., Helaly, S., … Stradal, T. (2019). The Effect of Cytochalasans on the Actin Cytoskeleton of Eukaryotic Cells and Preliminary Structure–Activity Relationships. Biomolecules, 9(2), 73. doi:10.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C29H37NO5",
+      "Total Molweight": 479.615,
+      "Smiles": "C[C@@H]([C@@H]([C@H](Cc1ccccc1)NC1=O)[C@@]11OC(/C=C2)=O)[C@@]3(C)O[C@H]3[C@@H]1/C=C/C[C@H](C)CCC[C@H]\\2O",
+      "Image File": "Cytochalasin B.png"
+    }
+  },
+  {
+    "mol_idx": 111,
+    "structure_image": "structure_111.png",
+    "fields": {
+      "Compound": "Fragiformin C",
+      "Origin": "Hypoxylon fragiforme",
+      "Reference": "Kretz, R., Wendt, L., Wongkanoun, S., Luangsa-ard, J., Surup, F., Helaly, S., … Stradal, T. (2019). The Effect of Cytochalasans on the Actin Cytoskeleton of Eukaryotic Cells and Preliminary Structure–Activity Relationships. Biomolecules, 9(2), 73. doi:10.",
+      "Actin Disruption Activity": "+",
+      "Reversibilty": "+/-",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "not tested",
+      "Synonyms": "",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C28H35NO3",
+      "Total Molweight": 433.59,
+      "Smiles": "C[C@H](C[C@H](C)/C=C1)C/C=C/[C@@H]([C@@H](C(C)=C(C)C2[C@H](Cc3ccccc3)NC3=O)O)[C@@]23C\\1=O"
+    }
+  },
+  {
+    "mol_idx": 112,
+    "structure_image": "structure_112.png",
+    "fields": {
+      "Compound": "Cytochalasin P1",
+      "Origin": "Xylaria karyophthora",
+      "Reference": "Lambert C, Shao L, Zeng H, Surup F, Saetang P, Aime MC, Husbands DR, Rottner K, Stradal TEB, Stadler M. Cytochalasans produced by Xylaria karyophthora and their biological activities. Mycologia. 2023 May-Jun;115(3):277-287. doi: 10.1080/00275514.2023.2188868. Epub 2023 Apr 5. PMID: 37017575.",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "not included yet",
+      "Quantity": "available",
+      "IC50": "15.44 µg/mL\n27.7 µM",
+      "Synonyms": "P13-1-1",
+      "Subclass": "Cytochalasin",
+      "Molecular Formula": "C30H39NO8",
+      "Total Molweight": 541.639,
+      "Smiles": "C[C@@H](C([C@H](Cc1ccccc1)N1)[C@@]([C@H]([C@@H]2O)/C=C/C[C@H](C)C([C@@](C)([C@@H]3O[C@H]33)O)=O)([C@@H]3OC(C)=O)C1=O)[C@@]2(C)O",
+      "Image File": "Cytochalasin B1.png"
+    }
+  },
+  {
+    "mol_idx": 113,
+    "structure_image": "structure_113.png",
+    "fields": {
+      "Compound": "Pericoannosin A",
+      "Origin": "synthetic",
+      "Reference": "Daniel Lücke, Yannick Linne, Katharina Hempel, and Markus Kalesse, Total Synthesis of Pericoannosin A,Organic Letters 2018 20 (15), 4475-4477\nDOI: 10.1021/acs.orglett.8b01768",
+      "Actin Disruption Activity": "-",
+      "Reversibilty": "+",
+      "Box ID": "not included yet",
+      "Quantity": "available",
+      "IC50": "17 µg/mL",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "C23H37NO2",
+      "Total Molweight": 359.552,
+      "Smiles": "CC(C)C[C@@H](C[C@H]1[C@@](C[C@@H]2[C@@H]3CC(C)=CC2)(C[C@@H]3/C(\\C)=C/C)O)NC1=O"
+    }
+  },
+  {
+    "mol_idx": 114,
+    "structure_image": "structure_114.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 115,
+    "structure_image": "structure_115.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 116,
+    "structure_image": "structure_116.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 117,
+    "structure_image": "structure_117.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 118,
+    "structure_image": "structure_118.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 119,
+    "structure_image": "structure_119.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 120,
+    "structure_image": "structure_120.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 121,
+    "structure_image": "structure_121.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 122,
+    "structure_image": "structure_122.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 123,
+    "structure_image": "structure_123.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 124,
+    "structure_image": "structure_124.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  },
+  {
+    "mol_idx": 125,
+    "structure_image": "structure_125.png",
+    "fields": {
+      "Compound": "",
+      "Origin": "",
+      "Reference": "",
+      "Actin Disruption Activity": "not tested",
+      "Reversibilty": "not tested",
+      "Box ID": "",
+      "Quantity": "not available",
+      "IC50": "",
+      "Synonyms": "",
+      "Subclass": "",
+      "Molecular Formula": "",
+      "Total Molweight": "",
+      "Smiles": ""
+    }
+  }
+]

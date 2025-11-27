@@ -4,8 +4,8 @@ services:
       context: ./backend
       dockerfile: Backend_Dockerfile
     container_name: backend
-    ports:
-      - "${CYTOCHAL_BACKEND_PORT}:5000"
+    expose:
+      - "5000"
     volumes:
       - ./backend/static:/app/static
     environment:
@@ -49,12 +49,14 @@ services:
       dockerfile: Frontend_Dockerfile
       args:
         VITE_API_BASE_URL: "http://${CYTOCHAL_API_HOST}:${CYTOCHAL_BACKEND_PORT}${CYTOCHAL_API_BASE_PATH}"
+        CYTOCHAL_API_HOST: "${CYTOCHAL_API_HOST}"
+        CYTOCHAL_BACKEND_PORT: "${CYTOCHAL_BACKEND_PORT}"
+        CYTOCHAL_API_BASE_PATH: "${CYTOCHAL_API_BASE_PATH}"
         CYTOCHAL_FRONTEND_PORT: "${CYTOCHAL_FRONTEND_PORT}"
         CYTOCHAL_FRONTEND_BASE_URL: "${CYTOCHAL_FRONTEND_BASE_URL}"
     container_name: frontend
-    ports:
-      - "${CYTOCHAL_FRONTEND_PORT}:3000"
-   
+    expose:
+      - "3000"
     environment:
     - VITE_API_BASE_URL=http://${CYTOCHAL_API_HOST}:${CYTOCHAL_BACKEND_PORT}${CYTOCHAL_API_BASE_PATH}
     - CYTOCHAL_FRONTEND_PORT=${CYTOCHAL_FRONTEND_PORT}
@@ -80,6 +82,7 @@ services:
     ports:
       - "80:80"
     volumes:
+      - ./backend/static:/app/static:ro
       - ./.env:/app/.env:ro
     environment:
         - BACKEND_PORT=${CYTOCHAL_BACKEND_PORT}
