@@ -59,5 +59,4 @@ public/Final\ Figures
 static/Final\ Figures
 **/node_modules/
 **/molecule_structures_image/
-
-.idea/*
+backend/search_index
