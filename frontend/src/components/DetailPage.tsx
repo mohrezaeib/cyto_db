@@ -191,8 +191,11 @@ export default function DetailPage({
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <DetailField
                     label="Actin Disruption Activity"
-                    value={compound.fields["Actin Disruption Activity"] || "-"}
-                  />
+                        value={
+                          compound.fields["Actin Disruption Activity (1h Treatment)"] ||
+                          compound.fields["Actin Disruption Activity"] ||
+                          "-"
+                        } />
                   <DetailField
                     label="IC50"
                     value={compound.fields["IC50"] || "-"}

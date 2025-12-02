@@ -7,3 +7,4 @@ rdkit
 gunicorn
 python-dotenv
 pillow
+pandas>=1.5.0

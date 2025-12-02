@@ -15,6 +15,7 @@ export interface Compound {
   structure_image: string;
   fields: {
     "Actin Disruption Activity": string;
+    "Actin Disruption Activity (1h Treatment)": string;
     "Box ID": string;
     "Compound": string;
     "IC50": string;
